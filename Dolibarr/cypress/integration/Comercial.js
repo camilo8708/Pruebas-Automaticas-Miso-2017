@@ -1,57 +1,51 @@
-describe('Los estudiantes login', function() {
-    it('Visits los estudiantes and fails at login', function() {
-        cy.visit('https://losestudiantes.co')
-        cy.contains('Cerrar').click()
-        cy.contains('Ingresar').click()
-        cy.get('.cajaLogIn').find('input[name="correo"]').click().type("cc.huertas@uniandes.edu.co")
-        cy.get('.cajaLogIn').find('input[name="password"]').click().type("Taller2")
-        cy.get('.cajaLogIn').contains('Ingresar').click()
-        cy.contains('Salir')
-    })
-})
-
-describe('Los estudiantes registro', function() {
-    it('Visits los estudiantes and correct at login', function() {
-        cy.visit('https://losestudiantes.co')
-        cy.contains('Cerrar').click()
-        cy.contains('Ingresar').click()
-
-        cy.get('.cajaSignUp').find('input[name="nombre"]').click().type("Cristian")
-        cy.get('.cajaSignUp').find('input[name="apellido"]').click().type("Huertas")
-        cy.get('.cajaSignUp').find('input[name="correo"]').click().type("cc.huertas@uniandes.edu.co")
-        cy.get('.cajaSignUp').find('select[name="idDepartamento"]').select("Física")
-        cy.get('.cajaSignUp').find('input[name="password"]').click().type("Taller2")
-        cy.get('.cajaSignUp').find('input[name="acepta"]').click()
-        cy.get('.cajaSignUp').contains('Registrarse').click()
-        cy.contains('Error: Ya existe un usuario registrado con el correo \'cc.huertas@uniandes.edu.co\'')
-    })
-})
-
-describe('Los estudiantes busqueda profesor', function() {
-    it('Visits los estudiantes and busqueda profesor', function() {
-        cy.visit('https://losestudiantes.co')
-        cy.contains('Cerrar').click()
-
-        cy.get('.Select-input').find('input[role="combobox"]').click({force: true}).type("Mario Villamizar")
-        cy.get('.Select-option').click()
-        cy.get('.descripcionProfesor').contains('Mario Villamizar Cano')
-        cy.get('.descripcionProfesor').contains('Ingeniería de Sistemas')
-        cy.get('.descripcionProfesor').contains('Universidad de los Andes')
-
-    })
-})
-
-describe('Los estudiantes filtro materia', function() {
-    it('Visits los estudiantes and filtro materia', function() {
-        cy.visit('https://losestudiantes.co')
-        cy.contains('Cerrar').click()
-
-        cy.get('.Select-input').find('input[role="combobox"]').click({force: true}).type("Mario Villamizar")
-        cy.get('.Select-option').click()
-        cy.get('.descripcionProfesor').contains('Mario Villamizar Cano')
-        cy.get('.materias').find('input[name="ISIS1205"]').click()
-        cy.get('.carreraCalificacion').contains('Algoritmica Y Progr. Obj. Ii')
+describe('Dolibarr Login', function() {
+    it('autenticación Dolibarr', function() {
+        cy.visit('http://52.54.130.109/dolibarr')
+        cy.get('.login_table').find('input[id="username"]').click().type("admin")
+        cy.get('.login_table').find('input[name="password"]').click().type("miso2017")
+        cy.get('.login_table').contains('Connection').click()
         
+        cy.get('.tmenucenter').contains('Comercial').click()
+
+        cy.get('.vmenu').find('a.vsmenu').contains('Nuevo presupuesto').click()
+
+        cy.get('.border').find('input[name="ref_client"]').type(123)
+        
+   
+        
+        cy.get('.border').find('input[name="re"]').clear()
+        cy.get('.border').find('input[name="duree_validite"]').clear()
+        cy.get('.border').find('select[name="cond_reglement_id"]').select('3')
+        cy.get('.border').find('select[name="mode_reglement_id"]').select('6')
+        cy.get('.border').find('select[name="demand_reason_id"]').select('10')
+        cy.get('.border').find('select[name="availability_id"]').select('3')
+        cy.get('.border').find('select[name="shipping_method_id"]').select('1')
+        cy.get('.border').find('button[id="date_livraisonButtonNow"]').click()
+        //cy.get('.border').find('input[name="date_livraison"]').contains('04/09/2017')
+        cy.get('.border').find('input[name="date_livraison"]').clear().type('04/09/2007')
+        cy.get('.border').find('textarea[name="note_public"]').type('Prueba nota publica')
+        cy.get('.border').find('textarea[name="note_private"]').type('Prueba nota privada')
+
+        cy.get('.center').contains('Crear borrador').click()
+        //cy.get('.border').find('select[id="socid"]').select('5')
+        
+        //Validación de mensajes de error
+        cy.get('.jnotify-message').contains('El campo \'Fecha\' es obligatorio')
+        cy.get('.jnotify-message').contains('El campo \'Duración de validez\' es obligatorio')
+        cy.get('.jnotify-message').contains('El campo \'Cliente\' es obligatorio')
+
+        //ajuste de las variables obligatorias
+        cy.get('.border').find('input[id="s2id_autogen1"]').click({force: true}).type("E")
+        cy.get('.select2-results').contains('}}|||| (EMPANADITASCO)').click()
+        cy.get('.border').find('input[name="duree_validite"]').clear().type('35')
+        cy.get('.border').find('input[name="re"]').clear().type('25/08/1987')
+
+        cy.get('.center').contains('Crear borrador').click()
+
+
+        
+        
+
     })
 })
 
