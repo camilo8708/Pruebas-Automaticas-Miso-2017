@@ -20,4 +20,4 @@ Repositorio del proyecto de pruebas automaticas
    * K-9 Mail: https://f-droid.org/packages/com.fsck.k9/  
    * src: https://github.com/k9mail/k-9 
 # Reportes
-* Primer Reporte: [[Reporte]]https://uniandes-my.sharepoint.com/personal/cc_huertas_uniandes_edu_co/_layouts/15/guestaccess.aspx?guestaccesstoken=lMr9WCrIidfCrH8wEjot7cQsyjiztLMjpXzSCyNSvPQ%3d&docid=2_00486ae3c5c5041d1b9ef5ff4796bec0e&rev=1
+* [Primer Reporte](https://uniandes-my.sharepoint.com/personal/cc_huertas_uniandes_edu_co/_layouts/15/guestaccess.aspx?guestaccesstoken=lMr9WCrIidfCrH8wEjot7cQsyjiztLMjpXzSCyNSvPQ%3d&docid=2_00486ae3c5c5041d1b9ef5ff4796bec0e&rev=1)
