@@ -1,0 +1,957 @@
+:Monkey: seed=1505487852396 count=4000
+:AllowPackage: as.io.openshop
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(848.0,1816.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(848.5383,1815.7013)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(823.0,1694.0)
+:Sending Touch (ACTION_UP): 0:(823.97064,1639.6458)
+:Sending Touch (ACTION_DOWN): 0:(911.0,2042.0)
+:Sending Touch (ACTION_UP): 0:(950.4853,2108.6729)
+:Sending Touch (ACTION_DOWN): 0:(640.0,1629.0)
+:Sending Touch (ACTION_UP): 0:(635.0186,1626.8005)
+:Sending Touch (ACTION_DOWN): 0:(893.0,2243.0)
+:Sending Touch (ACTION_UP): 0:(898.7163,2246.1519)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.ProductActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(747.0,2255.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(730.12463,2424.6736)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1354.0,1514.0)
+:Sending Touch (ACTION_UP): 0:(1411.6736,1589.5277)
+:Sending Touch (ACTION_DOWN): 0:(729.0,478.0)
+:Sending Touch (ACTION_UP): 0:(731.20844,511.2446)
+:Sending Touch (ACTION_DOWN): 0:(565.0,1804.0)
+:Sending Touch (ACTION_UP): 0:(561.1923,1822.1582)
+:Sending Touch (ACTION_DOWN): 0:(691.0,673.0)
+:Sending Touch (ACTION_UP): 0:(702.3379,686.83496)
+:Sending Touch (ACTION_DOWN): 0:(908.0,1177.0)
+:Sending Touch (ACTION_UP): 0:(903.05945,1180.8981)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+    //[calendar_time:2017-09-12 22:09:16.495  system_uptime:219912823]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(811.0,2286.0)
+:Sending Touch (ACTION_UP): 0:(802.9756,2284.426)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(552.0,1485.0)
+:Sending Touch (ACTION_UP): 0:(606.9985,1556.1324)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(542.0,2213.0)
+:Sending Touch (ACTION_UP): 0:(534.99554,2218.3179)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.DetailActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(578.0,485.0)
+:Sending Touch (ACTION_UP): 0:(576.81525,491.2215)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(978.0,2055.0)
+:Sending Touch (ACTION_UP): 0:(996.59424,2059.2214)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1007.0,1083.0)
+:Sending Touch (ACTION_UP): 0:(1005.5029,1084.1204)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(682.0,519.0)
+    //[calendar_time:2017-09-12 22:09:17.673  system_uptime:219914001]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(748.5906,493.42926)
+:Sending Touch (ACTION_DOWN): 0:(590.0,708.0)
+:Sending Touch (ACTION_UP): 0:(537.4708,650.4846)
+:Sending Touch (ACTION_DOWN): 0:(977.0,2219.0)
+:Sending Touch (ACTION_UP): 0:(974.5696,2222.268)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(1200.0,1326.0)
+:Sending Touch (ACTION_UP): 0:(1209.0437,1336.4393)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.cyanogenmod.eleven/.ui.activities.HomeActivity } in package com.cyanogenmod.eleven
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(1411.0,228.0)
+:Sending Touch (ACTION_UP): 0:(1411.5769,232.10356)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(473.0,2377.0)
+:Sending Touch (ACTION_UP): 0:(473.64676,2378.5203)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    //[calendar_time:2017-09-12 22:09:19.312  system_uptime:219915640]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(1104.0,1007.0)
+:Sending Touch (ACTION_UP): 0:(1110.6849,1001.81226)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.GalleryActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(697.0,2502.0)
+:Sending Touch (ACTION_UP): 0:(727.5908,2471.2705)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(1147.0,301.0)
+:Sending Touch (ACTION_UP): 0:(1152.4639,300.92578)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(213.0,1558.0)
+:Sending Touch (ACTION_UP): 0:(214.99193,1555.0535)
+:Sending Touch (ACTION_DOWN): 0:(1249.0,1757.0)
+:Sending Touch (ACTION_UP): 0:(1092.0853,1709.1707)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(1287.0,1815.0)
+:Sending Touch (ACTION_UP): 0:(1291.8615,1811.3313)
+:Sending Touch (ACTION_DOWN): 0:(110.0,1104.0)
+:Sending Touch (ACTION_UP): 0:(146.08394,1153.9655)
+:Sending Touch (ACTION_DOWN): 0:(851.0,1271.0)
+    //[calendar_time:2017-09-12 22:09:20.612  system_uptime:219916939]
+    // Sending event #400
+:Sending Touch (ACTION_UP): 0:(870.17914,1328.3677)
+:Sending Touch (ACTION_DOWN): 0:(670.0,41.0)
+:Sending Touch (ACTION_UP): 0:(707.0699,10.197226)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(428.0,821.0)
+:Sending Touch (ACTION_UP): 0:(429.97418,822.9299)
+:Sending Touch (ACTION_DOWN): 0:(374.0,2538.0)
+:Sending Touch (ACTION_UP): 0:(367.34573,2533.9048)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1010.0,2081.0)
+:Sending Touch (ACTION_UP): 0:(1007.4573,2078.534)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(208.0,24.0)
+:Sending Touch (ACTION_UP): 0:(189.56958,56.540245)
+:Sending Touch (ACTION_DOWN): 0:(606.0,736.0)
+:Sending Touch (ACTION_UP): 0:(605.4136,734.81055)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    //[calendar_time:2017-09-12 22:09:21.547  system_uptime:219917875]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(848.0,616.0)
+:Sending Touch (ACTION_UP): 0:(848.97815,620.44446)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(80.0,1518.0)
+:Sending Touch (ACTION_UP): 0:(85.9246,1519.4858)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(1207.0,402.0)
+:Sending Touch (ACTION_UP): 0:(1202.8921,398.61877)
+:Sending Touch (ACTION_DOWN): 0:(284.0,197.0)
+:Sending Touch (ACTION_UP): 0:(298.3947,188.56789)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(384.0,2097.0)
+:Sending Touch (ACTION_UP): 0:(384.84317,2091.2017)
+:Sending Touch (ACTION_DOWN): 0:(0.0,1700.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1651.0176)
+:Sending Touch (ACTION_DOWN): 0:(1279.0,1617.0)
+:Sending Touch (ACTION_UP): 0:(1137.9275,1507.9648)
+:Sending Touch (ACTION_DOWN): 0:(660.0,734.0)
+:Sending Touch (ACTION_UP): 0:(660.80743,735.4386)
+:Sending Touch (ACTION_DOWN): 0:(388.0,89.0)
+:Sending Touch (ACTION_UP): 0:(365.96933,90.32789)
+:Sending Touch (ACTION_DOWN): 0:(164.0,440.0)
+:Sending Touch (ACTION_UP): 0:(163.9631,440.84125)
+:Sending Touch (ACTION_DOWN): 0:(1335.0,529.0)
+:Sending Touch (ACTION_UP): 0:(1359.0111,527.90826)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+    //[calendar_time:2017-09-12 22:09:23.312  system_uptime:219919640]
+    // Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(709.0,736.0)
+:Sending Touch (ACTION_UP): 0:(712.21014,731.59064)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(181.0,1862.0)
+:Sending Touch (ACTION_UP): 0:(200.98552,1858.5574)
+:Sending Touch (ACTION_DOWN): 0:(979.0,570.0)
+:Sending Touch (ACTION_UP): 0:(964.1772,570.6274)
+:Sending Touch (ACTION_DOWN): 0:(1368.0,844.0)
+:Sending Touch (ACTION_UP): 0:(1351.4941,854.50055)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(1015.0,1489.0)
+:Sending Touch (ACTION_UP): 0:(1077.5677,1448.199)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(1017.0,612.0)
+:Sending Touch (ACTION_UP): 0:(1014.5156,612.3844)
+:Sending Touch (ACTION_DOWN): 0:(1177.0,1817.0)
+:Sending Touch (ACTION_UP): 0:(1183.6111,1763.429)
+    // Rejecting start of Intent { act=android.speech.action.WEB_SEARCH cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(737.0,1446.0)
+:Sending Touch (ACTION_UP): 0:(731.52264,1442.6711)
+:Sending Touch (ACTION_DOWN): 0:(1419.0,551.0)
+:Sending Touch (ACTION_UP): 0:(1422.6056,548.51715)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(641.0,1911.0)
+    //[calendar_time:2017-09-12 22:09:25.118  system_uptime:219921446]
+    // Sending event #700
+:Sending Touch (ACTION_UP): 0:(625.3818,1907.7253)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(1174.0,418.0)
+:Sending Touch (ACTION_UP): 0:(1148.054,428.6289)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1046.0,2079.0)
+:Sending Touch (ACTION_UP): 0:(1034.5096,2116.5195)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    //[calendar_time:2017-09-12 22:09:26.092  system_uptime:219922420]
+    // Sending event #800
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(949.0,108.0)
+:Sending Touch (ACTION_UP): 0:(959.6364,114.022606)
+:Sending Touch (ACTION_DOWN): 0:(988.0,375.0)
+:Sending Touch (ACTION_UP): 0:(985.3858,379.4836)
+:Sending Touch (ACTION_DOWN): 0:(964.0,297.0)
+:Sending Touch (ACTION_UP): 0:(883.181,303.14154)
+:Sending Touch (ACTION_DOWN): 0:(1358.0,1969.0)
+:Sending Touch (ACTION_UP): 0:(1375.619,1941.7764)
+:Sending Touch (ACTION_DOWN): 0:(764.0,2155.0)
+:Sending Touch (ACTION_UP): 0:(722.3577,2185.5684)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(895.0,1962.0)
+:Sending Touch (ACTION_UP): 0:(878.70605,1950.7667)
+:Sending Touch (ACTION_DOWN): 0:(362.0,967.0)
+:Sending Touch (ACTION_UP): 0:(356.49847,964.90125)
+:Sending Touch (ACTION_DOWN): 0:(590.0,1207.0)
+:Sending Touch (ACTION_UP): 0:(681.4254,1133.0455)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(841.0,2057.0)
+:Sending Touch (ACTION_UP): 0:(815.5988,2051.4966)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1391.0,1249.0)
+:Sending Touch (ACTION_UP): 0:(1412.9716,1210.7336)
+    //[calendar_time:2017-09-12 22:09:27.301  system_uptime:219923629]
+    // Sending event #900
+    //[calendar_time:2017-09-12 22:09:27.353  system_uptime:219923681]
+    // Sending event #900
+:Sending Touch (ACTION_DOWN): 0:(769.0,2497.0)
+:Sending Touch (ACTION_UP): 0:(773.63776,2504.4773)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(846.0,41.0)
+:Sending Touch (ACTION_UP): 0:(843.0244,49.449337)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1185.0,884.0)
+:Sending Touch (ACTION_UP): 0:(1275.0957,896.0195)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1009.0,829.0)
+:Sending Touch (ACTION_UP): 0:(999.833,831.7456)
+:Sending Touch (ACTION_DOWN): 0:(440.0,640.0)
+:Sending Touch (ACTION_UP): 0:(375.68588,564.7703)
+:Sending Touch (ACTION_DOWN): 0:(493.0,2300.0)
+:Sending Touch (ACTION_UP): 0:(507.7039,2237.197)
+:Sending Touch (ACTION_DOWN): 0:(1067.0,858.0)
+:Sending Touch (ACTION_UP): 0:(1092.3223,820.8651)
+:Sending Touch (ACTION_DOWN): 0:(480.0,1068.0)
+:Sending Touch (ACTION_UP): 0:(485.1159,1066.0936)
+:Sending Touch (ACTION_DOWN): 0:(718.0,1769.0)
+:Sending Touch (ACTION_UP): 0:(640.7404,1816.2867)
+:Sending Touch (ACTION_DOWN): 0:(792.0,779.0)
+    //[calendar_time:2017-09-12 22:09:28.611  system_uptime:219924939]
+    // Sending event #1000
+:Sending Touch (ACTION_UP): 0:(809.8811,771.9775)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(555.0,1320.0)
+:Sending Touch (ACTION_UP): 0:(571.4634,1320.487)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(585.0,590.0)
+:Sending Touch (ACTION_UP): 0:(614.2763,598.2773)
+:Sending Touch (ACTION_DOWN): 0:(551.0,2144.0)
+:Sending Touch (ACTION_UP): 0:(554.03876,2131.5266)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(601.0,354.0)
+:Sending Touch (ACTION_UP): 0:(617.3403,354.66208)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1154.0,383.0)
+:Sending Touch (ACTION_UP): 0:(1158.6765,375.60324)
+    //[calendar_time:2017-09-12 22:09:29.654  system_uptime:219925981]
+    // Sending event #1100
+    //[calendar_time:2017-09-12 22:09:29.704  system_uptime:219926032]
+    // Sending event #1100
+:Sending Touch (ACTION_DOWN): 0:(1282.0,2362.0)
+:Sending Touch (ACTION_UP): 0:(1269.1116,2374.177)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(964.0,1715.0)
+:Sending Touch (ACTION_UP): 0:(964.0893,1731.2506)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(414.0,1360.0)
+:Sending Touch (ACTION_UP): 0:(412.27652,1350.5742)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    //[calendar_time:2017-09-12 22:09:30.959  system_uptime:219927286]
+    // Sending event #1200
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1346.0,303.0)
+:Sending Touch (ACTION_UP): 0:(1343.1466,320.98422)
+:Sending Touch (ACTION_DOWN): 0:(978.0,2163.0)
+:Sending Touch (ACTION_UP): 0:(929.5172,2146.1162)
+:Sending Touch (ACTION_DOWN): 0:(190.0,158.0)
+:Sending Touch (ACTION_UP): 0:(238.05267,217.19452)
+:Sending Touch (ACTION_DOWN): 0:(879.0,943.0)
+:Sending Touch (ACTION_UP): 0:(862.55096,971.5867)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Rejecting start of Intent { cmp=com.android.systemui/.recents.RecentsActivity } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(1245.0,443.0)
+:Sending Touch (ACTION_UP): 0:(1257.9716,546.0326)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(647.0,1330.0)
+:Sending Touch (ACTION_UP): 0:(642.5673,1332.0406)
+:Sending Touch (ACTION_DOWN): 0:(939.0,2442.0)
+    //[calendar_time:2017-09-12 22:09:32.227  system_uptime:219928554]
+    // Sending event #1300
+:Sending Touch (ACTION_UP): 0:(918.0862,2425.1763)
+:Sending Touch (ACTION_DOWN): 0:(852.0,2258.0)
+:Sending Touch (ACTION_UP): 0:(849.5407,2256.8367)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(731.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(730.78186,1096.845)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(739.0,589.0)
+:Sending Touch (ACTION_UP): 0:(742.4631,591.4007)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(413.0,164.0)
+:Sending Touch (ACTION_UP): 0:(411.84338,155.90959)
+:Sending Touch (ACTION_DOWN): 0:(497.0,1400.0)
+:Sending Touch (ACTION_UP): 0:(568.67206,1450.0604)
+:Sending Touch (ACTION_DOWN): 0:(137.0,1702.0)
+:Sending Touch (ACTION_UP): 0:(140.00583,1700.693)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(1088.0,2130.0)
+:Sending Touch (ACTION_UP): 0:(1085.098,2128.9001)
+:Sending Touch (ACTION_DOWN): 0:(1090.0,1520.0)
+:Sending Touch (ACTION_UP): 0:(1079.1678,1523.5381)
+:Sending Touch (ACTION_DOWN): 0:(476.0,1518.0)
+:Sending Touch (ACTION_UP): 0:(460.00238,1514.0033)
+    //[calendar_time:2017-09-12 22:09:33.762  system_uptime:219930090]
+    // Sending event #1400
+    //[calendar_time:2017-09-12 22:09:33.815  system_uptime:219930143]
+    // Sending event #1400
+:Sending Touch (ACTION_DOWN): 0:(455.0,1740.0)
+:Sending Touch (ACTION_UP): 0:(436.39377,1789.8545)
+:Sending Touch (ACTION_DOWN): 0:(240.0,2123.0)
+:Sending Touch (ACTION_UP): 0:(249.2259,2121.7607)
+:Sending Touch (ACTION_DOWN): 0:(1080.0,1822.0)
+:Sending Touch (ACTION_UP): 0:(1064.0621,1839.5375)
+:Sending Touch (ACTION_DOWN): 0:(924.0,1516.0)
+:Sending Touch (ACTION_UP): 0:(922.4722,1518.6987)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(586.0,1607.0)
+:Sending Touch (ACTION_UP): 0:(586.2677,1607.1273)
+:Sending Touch (ACTION_DOWN): 0:(200.0,2253.0)
+:Sending Touch (ACTION_UP): 0:(207.87186,2262.806)
+:Sending Touch (ACTION_DOWN): 0:(1028.0,2529.0)
+:Sending Touch (ACTION_UP): 0:(1035.8702,2524.4695)
+:Sending Touch (ACTION_DOWN): 0:(1278.0,2526.0)
+:Sending Touch (ACTION_UP): 0:(1277.2555,2528.8733)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1373.0,1095.0)
+:Sending Touch (ACTION_UP): 0:(1369.2936,1098.6821)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(841.0,1659.0)
+:Sending Touch (ACTION_UP): 0:(858.794,1648.1613)
+:Sending Touch (ACTION_DOWN): 0:(872.0,2281.0)
+    //[calendar_time:2017-09-12 22:09:35.671  system_uptime:219931999]
+    // Sending event #1500
+:Sending Touch (ACTION_UP): 0:(880.1735,2305.918)
+:Sending Touch (ACTION_DOWN): 0:(251.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(251.33456,1092.8324)
+:Sending Touch (ACTION_DOWN): 0:(670.0,2354.0)
+:Sending Touch (ACTION_UP): 0:(666.41046,2406.0955)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(196.0,318.0)
+:Sending Touch (ACTION_UP): 0:(213.3741,319.16745)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1067.0,2443.0)
+:Sending Touch (ACTION_UP): 0:(1062.8517,2431.0803)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    //[calendar_time:2017-09-12 22:09:36.478  system_uptime:219932806]
+    // Sending event #1600
+    //[calendar_time:2017-09-12 22:09:36.529  system_uptime:219932857]
+    // Sending event #1600
+:Sending Touch (ACTION_DOWN): 0:(1325.0,2448.0)
+:Sending Touch (ACTION_UP): 0:(1340.4803,2491.8418)
+:Sending Touch (ACTION_DOWN): 0:(403.0,2367.0)
+:Sending Touch (ACTION_UP): 0:(406.54657,2367.9917)
+:Sending Touch (ACTION_DOWN): 0:(11.0,149.0)
+:Sending Touch (ACTION_UP): 0:(4.314011,164.4715)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(920.0,2516.0)
+:Sending Touch (ACTION_UP): 0:(918.0885,2515.5347)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // activityResuming(as.io.openshop)
+:Sending Touch (ACTION_DOWN): 0:(150.0,472.0)
+:Sending Touch (ACTION_UP): 0:(182.4936,581.5113)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.GalleryActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(486.0,1478.0)
+:Sending Touch (ACTION_UP): 0:(392.67303,1587.9833)
+:Sending Touch (ACTION_DOWN): 0:(1326.0,1865.0)
+:Sending Touch (ACTION_UP): 0:(1323.8483,1857.4248)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(904.0,1698.0)
+    //[calendar_time:2017-09-12 22:09:37.928  system_uptime:219934256]
+    // Sending event #1700
+:Sending Touch (ACTION_UP): 0:(911.7113,1687.3214)
+:Sending Touch (ACTION_DOWN): 0:(765.0,2052.0)
+:Sending Touch (ACTION_UP): 0:(746.06915,2023.3705)
+:Sending Touch (ACTION_DOWN): 0:(1304.0,184.0)
+:Sending Touch (ACTION_UP): 0:(1303.3745,187.81326)
+:Sending Touch (ACTION_DOWN): 0:(1017.0,1801.0)
+:Sending Touch (ACTION_UP): 0:(989.7157,1738.973)
+:Sending Touch (ACTION_DOWN): 0:(1334.0,2248.0)
+:Sending Touch (ACTION_UP): 0:(1328.66,2248.426)
+:Sending Touch (ACTION_DOWN): 0:(1284.0,1993.0)
+:Sending Touch (ACTION_UP): 0:(1323.0286,1960.7214)
+:Sending Flip keyboardOpen=true
+    // Rejecting start of Intent { act=android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.BrightnessDialog } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(656.0,1581.0)
+:Sending Touch (ACTION_UP): 0:(652.9803,1582.3885)
+:Sending Touch (ACTION_DOWN): 0:(862.0,2444.0)
+:Sending Touch (ACTION_UP): 0:(770.02814,2375.1907)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(378.0,2262.0)
+:Sending Touch (ACTION_UP): 0:(365.90738,2212.62)
+:Sending Touch (ACTION_DOWN): 0:(1428.0,1069.0)
+:Sending Touch (ACTION_UP): 0:(1427.1709,1069.9514)
+:Sending Touch (ACTION_DOWN): 0:(1125.0,1609.0)
+:Sending Touch (ACTION_UP): 0:(1129.8936,1609.4591)
+:Sending Touch (ACTION_DOWN): 0:(1142.0,1429.0)
+:Sending Touch (ACTION_UP): 0:(1110.9647,1452.083)
+:Sending Touch (ACTION_DOWN): 0:(836.0,2233.0)
+:Sending Touch (ACTION_UP): 0:(787.48376,2145.9417)
+:Sending Touch (ACTION_DOWN): 0:(918.0,838.0)
+:Sending Touch (ACTION_UP): 0:(923.1517,827.5076)
+    //[calendar_time:2017-09-12 22:09:39.416  system_uptime:219935744]
+    // Sending event #1800
+    //[calendar_time:2017-09-12 22:09:39.467  system_uptime:219935795]
+    // Sending event #1800
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(601.0,1959.0)
+:Sending Touch (ACTION_UP): 0:(576.38605,1950.4825)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(179.0,697.0)
+:Sending Touch (ACTION_UP): 0:(207.58043,676.36017)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(784.0,2169.0)
+:Sending Touch (ACTION_UP): 0:(797.95123,2167.2078)
+:Sending Touch (ACTION_DOWN): 0:(526.0,2315.0)
+:Sending Touch (ACTION_UP): 0:(531.4983,2296.4055)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(572.0,810.0)
+:Sending Touch (ACTION_UP): 0:(572.4273,807.1704)
+:Sending Touch (ACTION_DOWN): 0:(39.0,2139.0)
+:Sending Touch (ACTION_UP): 0:(21.12455,2138.5317)
+:Sending Touch (ACTION_DOWN): 0:(253.0,1810.0)
+:Sending Touch (ACTION_UP): 0:(255.55255,1805.7911)
+:Sending Touch (ACTION_DOWN): 0:(379.0,749.0)
+:Sending Touch (ACTION_UP): 0:(386.47617,745.09937)
+:Sending Touch (ACTION_DOWN): 0:(851.0,736.0)
+:Sending Touch (ACTION_UP): 0:(859.7667,731.31537)
+:Sending Touch (ACTION_DOWN): 0:(488.0,732.0)
+:Sending Touch (ACTION_UP): 0:(492.6975,722.6301)
+    //[calendar_time:2017-09-12 22:09:41.200  system_uptime:219937528]
+    // Sending event #1900
+    //[calendar_time:2017-09-12 22:09:41.251  system_uptime:219937579]
+    // Sending event #1900
+:Sending Touch (ACTION_DOWN): 0:(1042.0,273.0)
+:Sending Touch (ACTION_UP): 0:(1033.6825,276.09204)
+:Sending Touch (ACTION_DOWN): 0:(571.0,818.0)
+:Sending Touch (ACTION_UP): 0:(502.59387,783.1053)
+:Sending Touch (ACTION_DOWN): 0:(505.0,459.0)
+:Sending Touch (ACTION_UP): 0:(487.46097,503.0107)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Flip keyboardOpen=true
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(1236.0,1857.0)
+:Sending Touch (ACTION_UP): 0:(1226.424,1863.0192)
+:Sending Touch (ACTION_DOWN): 0:(9.0,1669.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1679.4629)
+:Sending Touch (ACTION_DOWN): 0:(729.0,803.0)
+:Sending Touch (ACTION_UP): 0:(735.69617,805.5785)
+:Sending Touch (ACTION_DOWN): 0:(90.0,338.0)
+:Sending Touch (ACTION_UP): 0:(99.22437,333.4153)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(391.0,491.0)
+    //[calendar_time:2017-09-12 22:09:43.058  system_uptime:219939386]
+    // Sending event #2000
+:Sending Touch (ACTION_UP): 0:(358.89313,474.46075)
+:Sending Touch (ACTION_DOWN): 0:(61.0,274.0)
+:Sending Touch (ACTION_UP): 0:(61.622147,280.64267)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(963.0,798.0)
+:Sending Touch (ACTION_UP): 0:(950.1862,813.3606)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // activityResuming(as.io.openshop)
+:Sending Touch (ACTION_DOWN): 0:(506.0,2398.0)
+:Sending Touch (ACTION_UP): 0:(454.81085,2392.2075)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.GalleryActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+    //[calendar_time:2017-09-12 22:09:43.865  system_uptime:219940192]
+    // Sending event #2100
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(440.0,1421.0)
+:Sending Touch (ACTION_UP): 0:(420.772,1423.2983)
+:Sending Touch (ACTION_DOWN): 0:(1267.0,156.0)
+:Sending Touch (ACTION_UP): 0:(1269.2498,154.84079)
+:Sending Touch (ACTION_DOWN): 0:(70.0,1123.0)
+:Sending Touch (ACTION_UP): 0:(64.10105,1114.1716)
+:Sending Touch (ACTION_DOWN): 0:(1135.0,1439.0)
+:Sending Touch (ACTION_UP): 0:(1145.0415,1439.1074)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1422.0,770.0)
+:Sending Touch (ACTION_UP): 0:(1440.0,664.8803)
+:Sending Touch (ACTION_DOWN): 0:(1067.0,204.0)
+:Sending Touch (ACTION_UP): 0:(1067.182,213.07443)
+:Sending Touch (ACTION_DOWN): 0:(1397.0,42.0)
+:Sending Touch (ACTION_UP): 0:(1404.9114,42.585865)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(229.0,1530.0)
+:Sending Touch (ACTION_UP): 0:(332.50748,1622.9965)
+:Sending Touch (ACTION_DOWN): 0:(302.0,2268.0)
+:Sending Touch (ACTION_UP): 0:(303.5455,2257.4404)
+    // activityResuming(as.io.openshop)
+:Sending Touch (ACTION_DOWN): 0:(822.0,750.0)
+:Sending Touch (ACTION_UP): 0:(848.4638,772.1144)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.GalleryActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+    //[calendar_time:2017-09-12 22:09:45.322  system_uptime:219941649]
+    // Sending event #2200
+:Sending Touch (ACTION_DOWN): 0:(1432.0,2235.0)
+:Sending Touch (ACTION_UP): 0:(1424.9108,2233.8325)
+:Sending Touch (ACTION_DOWN): 0:(1114.0,1656.0)
+:Sending Touch (ACTION_UP): 0:(1118.5323,1656.6783)
+:Sending Touch (ACTION_DOWN): 0:(198.0,1902.0)
+:Sending Touch (ACTION_UP): 0:(204.22836,1898.5496)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1325.0,451.0)
+:Sending Touch (ACTION_UP): 0:(1345.8947,403.60312)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(321.0,403.0)
+:Sending Touch (ACTION_UP): 0:(308.68668,398.20078)
+:Sending Touch (ACTION_DOWN): 0:(338.0,1464.0)
+:Sending Touch (ACTION_UP): 0:(367.79916,1380.4086)
+:Sending Touch (ACTION_DOWN): 0:(245.0,578.0)
+    //[calendar_time:2017-09-12 22:09:46.681  system_uptime:219943011]
+    // Sending event #2300
+:Sending Touch (ACTION_UP): 0:(348.0343,701.494)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(199.0,2401.0)
+:Sending Touch (ACTION_UP): 0:(104.66925,2267.5515)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(435.0,1072.0)
+:Sending Touch (ACTION_UP): 0:(462.02368,1122.2258)
+:Sending Touch (ACTION_DOWN): 0:(1031.0,196.0)
+    //[calendar_time:2017-09-12 22:09:47.378  system_uptime:219943705]
+    // Sending event #2400
+:Sending Touch (ACTION_UP): 0:(983.4705,273.9516)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(139.0,369.0)
+:Sending Touch (ACTION_UP): 0:(115.77294,343.1279)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(1127.0,2278.0)
+:Sending Touch (ACTION_UP): 0:(1159.7983,2327.1829)
+:Sending Touch (ACTION_DOWN): 0:(1299.0,53.0)
+:Sending Touch (ACTION_UP): 0:(1303.2107,56.04163)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(4.0,408.0)
+    //[calendar_time:2017-09-12 22:09:48.164  system_uptime:219944492]
+    // Sending event #2500
+:Sending Touch (ACTION_UP): 0:(55.3679,564.5891)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1242.0,445.0)
+:Sending Touch (ACTION_UP): 0:(1247.847,434.821)
+:Sending Touch (ACTION_DOWN): 0:(667.0,816.0)
+:Sending Touch (ACTION_UP): 0:(667.39044,804.2798)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(423.0,2091.0)
+:Sending Touch (ACTION_UP): 0:(423.6482,2077.2468)
+:Sending Touch (ACTION_DOWN): 0:(250.0,1056.0)
+:Sending Touch (ACTION_UP): 0:(273.36032,1044.1893)
+:Sending Touch (ACTION_DOWN): 0:(809.0,845.0)
+:Sending Touch (ACTION_UP): 0:(706.6413,878.9673)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(427.0,550.0)
+:Sending Touch (ACTION_UP): 0:(425.6183,554.70984)
+:Sending Touch (ACTION_DOWN): 0:(316.0,108.0)
+    //[calendar_time:2017-09-12 22:09:49.862  system_uptime:219946190]
+    // Sending event #2600
+:Sending Touch (ACTION_UP): 0:(319.4055,111.844795)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=android/com.android.internal.app.ResolverActivity } in package android
+:Sending Touch (ACTION_DOWN): 0:(277.0,1454.0)
+:Sending Touch (ACTION_UP): 0:(266.38083,1474.7009)
+:Sending Touch (ACTION_DOWN): 0:(287.0,2359.0)
+:Sending Touch (ACTION_UP): 0:(339.81464,2412.4316)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1276.0,277.0)
+:Sending Touch (ACTION_UP): 0:(1271.947,272.55524)
+:Sending Touch (ACTION_DOWN): 0:(1247.0,2283.0)
+:Sending Touch (ACTION_UP): 0:(1246.9222,2275.5667)
+:Sending Touch (ACTION_DOWN): 0:(952.0,1182.0)
+:Sending Touch (ACTION_UP): 0:(952.2833,1185.759)
+:Sending Touch (ACTION_DOWN): 0:(1434.0,2330.0)
+:Sending Touch (ACTION_UP): 0:(1435.1615,2329.5771)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1411.0,2340.0)
+:Sending Touch (ACTION_UP): 0:(1414.0498,2347.905)
+    //[calendar_time:2017-09-12 22:09:51.093  system_uptime:219947421]
+    // Sending event #2700
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(448.0,2006.0)
+:Sending Touch (ACTION_UP): 0:(432.4863,2022.8717)
+:Sending Touch (ACTION_DOWN): 0:(157.0,296.0)
+    //[calendar_time:2017-09-12 22:09:52.371  system_uptime:219948698]
+    // Sending event #2800
+:Sending Touch (ACTION_UP): 0:(164.29016,396.08502)
+:Sending Touch (ACTION_DOWN): 0:(1305.0,80.0)
+:Sending Touch (ACTION_UP): 0:(1309.9735,174.32059)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+    // activityResuming(as.io.openshop)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Flip keyboardOpen=true
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(440.0,1332.0)
+:Sending Touch (ACTION_UP): 0:(443.70593,1319.4874)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.GalleryActivity_ } in package as.io.openshop
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(992.0,588.0)
+    //[calendar_time:2017-09-12 22:09:53.622  system_uptime:219949950]
+    // Sending event #2900
+:Sending Touch (ACTION_UP): 0:(993.3111,591.7694)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(423.0,1055.0)
+:Sending Touch (ACTION_UP): 0:(403.35934,1051.2693)
+:Sending Touch (ACTION_DOWN): 0:(668.0,435.0)
+:Sending Touch (ACTION_UP): 0:(673.34033,378.96936)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(979.0,2017.0)
+:Sending Touch (ACTION_UP): 0:(975.91046,2007.7783)
+:Sending Touch (ACTION_DOWN): 0:(147.0,1821.0)
+:Sending Touch (ACTION_UP): 0:(155.04402,1810.229)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(53.0,1786.0)
+    //[calendar_time:2017-09-12 22:09:55.146  system_uptime:219951473]
+    // Sending event #3000
+:Sending Touch (ACTION_UP): 0:(86.9888,1772.6768)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1247.0,2286.0)
+:Sending Touch (ACTION_UP): 0:(1246.5724,2273.621)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Flip keyboardOpen=true
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(975.0,1412.0)
+:Sending Touch (ACTION_UP): 0:(977.07196,1415.6975)
+:Sending Touch (ACTION_DOWN): 0:(297.0,650.0)
+:Sending Touch (ACTION_UP): 0:(307.07275,650.6998)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(1427.0,1686.0)
+:Sending Touch (ACTION_UP): 0:(1426.2885,1686.2637)
+    //[calendar_time:2017-09-12 22:09:56.360  system_uptime:219952688]
+    // Sending event #3100
+:Sending Touch (ACTION_DOWN): 0:(1001.0,1326.0)
+:Sending Touch (ACTION_UP): 0:(998.69324,1327.8787)
+:Sending Touch (ACTION_DOWN): 0:(417.0,146.0)
+:Sending Touch (ACTION_UP): 0:(368.44043,62.923157)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(689.0,615.0)
+:Sending Touch (ACTION_UP): 0:(691.757,624.6199)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(834.0,2081.0)
+:Sending Touch (ACTION_UP): 0:(830.5294,2065.4812)
+:Sending Touch (ACTION_DOWN): 0:(749.0,1208.0)
+:Sending Touch (ACTION_UP): 0:(737.0116,1215.1519)
+:Sending Touch (ACTION_DOWN): 0:(1071.0,869.0)
+:Sending Touch (ACTION_UP): 0:(1087.2694,936.3907)
+:Sending Touch (ACTION_DOWN): 0:(552.0,1232.0)
+:Sending Touch (ACTION_UP): 0:(551.6199,1243.3099)
+:Sending Touch (ACTION_DOWN): 0:(1311.0,98.0)
+:Sending Touch (ACTION_UP): 0:(1298.5789,98.17577)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(1352.0,714.0)
+:Sending Touch (ACTION_UP): 0:(1350.591,712.55316)
+:Sending Touch (ACTION_DOWN): 0:(450.0,2248.0)
+:Sending Touch (ACTION_UP): 0:(426.93082,2253.673)
+:Sending Touch (ACTION_DOWN): 0:(936.0,2215.0)
+:Sending Touch (ACTION_UP): 0:(937.1209,2213.271)
+:Sending Touch (ACTION_DOWN): 0:(152.0,2075.0)
+    //[calendar_time:2017-09-12 22:09:58.226  system_uptime:219954554]
+    // Sending event #3200
+:Sending Touch (ACTION_UP): 0:(138.58301,2081.037)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(21.0,1393.0)
+:Sending Touch (ACTION_UP): 0:(17.760435,1386.568)
+:Sending Touch (ACTION_DOWN): 0:(87.0,1016.0)
+:Sending Touch (ACTION_UP): 0:(95.51777,1008.01746)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1412.0,1370.0)
+:Sending Touch (ACTION_UP): 0:(1411.953,1382.1566)
+:Sending Touch (ACTION_DOWN): 0:(1354.0,2163.0)
+:Sending Touch (ACTION_UP): 0:(1354.2347,2146.8003)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(622.0,1017.0)
+:Sending Touch (ACTION_UP): 0:(624.48505,1017.17096)
+:Sending Touch (ACTION_DOWN): 0:(826.0,1369.0)
+:Sending Touch (ACTION_UP): 0:(860.4225,1353.321)
+:Sending Touch (ACTION_DOWN): 0:(1029.0,2261.0)
+:Sending Touch (ACTION_UP): 0:(1009.91766,2240.0237)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+    //[calendar_time:2017-09-12 22:09:59.244  system_uptime:219955572]
+    // Sending event #3300
+:Sending Touch (ACTION_DOWN): 0:(566.0,2223.0)
+:Sending Touch (ACTION_UP): 0:(564.3469,2235.2656)
+:Sending Touch (ACTION_DOWN): 0:(130.0,2002.0)
+:Sending Touch (ACTION_UP): 0:(108.547966,2005.9965)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(307.0,1849.0)
+:Sending Touch (ACTION_UP): 0:(304.19904,1848.2006)
+:Sending Touch (ACTION_DOWN): 0:(374.0,969.0)
+:Sending Touch (ACTION_UP): 0:(393.2538,965.66876)
+:Sending Touch (ACTION_DOWN): 0:(1044.0,225.0)
+:Sending Touch (ACTION_UP): 0:(1034.6024,161.89859)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1096.0,340.0)
+:Sending Touch (ACTION_UP): 0:(1094.0792,330.01553)
+:Sending Touch (ACTION_DOWN): 0:(798.0,1128.0)
+:Sending Touch (ACTION_UP): 0:(808.75494,1170.1227)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    //[calendar_time:2017-09-12 22:10:01.179  system_uptime:219957507]
+    // Sending event #3400
+:Sending Touch (ACTION_DOWN): 0:(1159.0,2215.0)
+:Sending Touch (ACTION_UP): 0:(1139.5286,2258.892)
+:Sending Touch (ACTION_DOWN): 0:(57.0,2133.0)
+:Sending Touch (ACTION_UP): 0:(57.044796,2135.2498)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1100.0,2259.0)
+:Sending Touch (ACTION_UP): 0:(1108.1381,2258.4053)
+:Sending Touch (ACTION_DOWN): 0:(634.0,1653.0)
+:Sending Touch (ACTION_UP): 0:(634.59863,1653.6405)
+:Sending Touch (ACTION_DOWN): 0:(80.0,1628.0)
+:Sending Touch (ACTION_UP): 0:(59.2721,1610.1195)
+:Sending Touch (ACTION_DOWN): 0:(721.0,100.0)
+:Sending Touch (ACTION_UP): 0:(727.29364,99.75331)
+:Sending Touch (ACTION_DOWN): 0:(93.0,2221.0)
+:Sending Touch (ACTION_UP): 0:(62.252594,2162.0186)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1207.0,825.0)
+:Sending Touch (ACTION_UP): 0:(1177.4661,790.7502)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    //[calendar_time:2017-09-12 22:10:02.336  system_uptime:219958664]
+    // Sending event #3500
+:Sending Touch (ACTION_DOWN): 0:(65.0,1002.0)
+:Sending Touch (ACTION_UP): 0:(79.57624,1024.0162)
+:Sending Touch (ACTION_DOWN): 0:(30.0,791.0)
+:Sending Touch (ACTION_UP): 0:(18.709755,779.165)
+:Sending Touch (ACTION_DOWN): 0:(75.0,851.0)
+:Sending Touch (ACTION_UP): 0:(48.897465,867.94775)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(269.0,578.0)
+:Sending Touch (ACTION_UP): 0:(193.5028,623.94965)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(653.0,1611.0)
+:Sending Touch (ACTION_UP): 0:(654.83984,1612.5707)
+:Sending Touch (ACTION_DOWN): 0:(1271.0,957.0)
+:Sending Touch (ACTION_UP): 0:(1276.5375,935.83435)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.contacts/.activities.PeopleActivity } in package com.android.contacts
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    //[calendar_time:2017-09-12 22:10:03.653  system_uptime:219959981]
+    // Sending event #3600
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1217.0,87.0)
+:Sending Touch (ACTION_UP): 0:(1214.05,90.3402)
+:Sending Touch (ACTION_DOWN): 0:(867.0,827.0)
+:Sending Touch (ACTION_UP): 0:(839.6227,826.82465)
+:Sending Touch (ACTION_DOWN): 0:(606.0,7.0)
+:Sending Touch (ACTION_UP): 0:(606.3812,10.787401)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(556.0,421.0)
+:Sending Touch (ACTION_UP): 0:(556.5046,420.59174)
+:Sending Touch (ACTION_DOWN): 0:(332.0,553.0)
+:Sending Touch (ACTION_UP): 0:(340.6942,564.22424)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL } in package com.google.android.googlequicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.contacts/.activities.PeopleActivity } in package com.android.contacts
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(587.0,2034.0)
+:Sending Touch (ACTION_UP): 0:(585.9065,2039.7126)
+:Sending Touch (ACTION_DOWN): 0:(162.0,1275.0)
+:Sending Touch (ACTION_UP): 0:(164.54773,1268.9124)
+:Sending Touch (ACTION_DOWN): 0:(535.0,636.0)
+    //[calendar_time:2017-09-12 22:10:04.893  system_uptime:219961221]
+    // Sending event #3700
+:Sending Touch (ACTION_UP): 0:(483.68274,582.3245)
+:Sending Touch (ACTION_DOWN): 0:(1274.0,850.0)
+:Sending Touch (ACTION_UP): 0:(1258.5741,838.09515)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(948.0,179.0)
+:Sending Touch (ACTION_UP): 0:(944.35156,142.84375)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1245.0,1996.0)
+:Sending Touch (ACTION_UP): 0:(1190.7332,2024.4644)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(769.0,2330.0)
+    //[calendar_time:2017-09-12 22:10:05.693  system_uptime:219962021]
+    // Sending event #3800
+:Sending Touch (ACTION_UP): 0:(810.7916,2347.577)
+:Sending Touch (ACTION_DOWN): 0:(1138.0,2296.0)
+:Sending Touch (ACTION_UP): 0:(1077.8912,2267.442)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1177.0,678.0)
+:Sending Touch (ACTION_UP): 0:(1161.1497,710.7735)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1092.0,1167.0)
+:Sending Touch (ACTION_UP): 0:(1091.5116,1159.3997)
+:Sending Touch (ACTION_DOWN): 0:(1307.0,1920.0)
+:Sending Touch (ACTION_UP): 0:(1310.8395,1922.9835)
+:Sending Touch (ACTION_DOWN): 0:(413.0,2157.0)
+:Sending Touch (ACTION_UP): 0:(414.97043,2165.6438)
+:Sending Touch (ACTION_DOWN): 0:(503.0,1709.0)
+:Sending Touch (ACTION_UP): 0:(496.1329,1703.1884)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(962.0,1656.0)
+    //[calendar_time:2017-09-12 22:10:06.969  system_uptime:219963297]
+    // Sending event #3900
+:Sending Touch (ACTION_UP): 0:(1029.004,1681.8866)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(30.0,1590.0)
+:Sending Touch (ACTION_UP): 0:(32.573032,1590.406)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(137.0,900.0)
+:Sending Touch (ACTION_UP): 0:(153.77473,900.99194)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(1061.0,1150.0)
+:Sending Touch (ACTION_UP): 0:(1071.1965,1149.364)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(926.0,1624.0)
+:Sending Touch (ACTION_UP): 0:(926.8244,1604.9979)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+Events injected: 4000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=14 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=53554ms (0ms mobile, 0ms wifi, 53554ms not connected)
+// Monkey finished

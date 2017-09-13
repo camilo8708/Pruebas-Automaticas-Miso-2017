@@ -1,0 +1,128 @@
+:Monkey: seed=1505527978819 count=4000
+:AllowPackage: as.io.openshop
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1189.0,483.0)
+:Sending Touch (ACTION_UP): 0:(1192.003,551.7784)
+:Sending Touch (ACTION_DOWN): 0:(749.0,1426.0)
+:Sending Touch (ACTION_UP): 0:(712.18176,1373.1144)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(881.0,219.0)
+:Sending Touch (ACTION_UP): 0:(925.6954,233.62492)
+:Sending Touch (ACTION_DOWN): 0:(199.0,1929.0)
+:Sending Touch (ACTION_UP): 0:(168.21634,1931.3933)
+    // activityResuming(com.android.settings)
+    // Rejecting resume of package com.android.settings
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(813.0,347.0)
+    //[calendar_time:2017-09-12 21:58:45.028  system_uptime:219281356]
+    // Sending event #100
+:Sending Touch (ACTION_UP): 0:(802.9081,322.55585)
+:Sending Touch (ACTION_DOWN): 0:(704.0,1063.0)
+:Sending Touch (ACTION_UP): 0:(705.8864,1051.6561)
+:Sending Touch (ACTION_DOWN): 0:(1268.0,1505.0)
+:Sending Touch (ACTION_UP): 0:(1266.7626,1505.8525)
+:Sending Touch (ACTION_DOWN): 0:(785.0,721.0)
+:Sending Touch (ACTION_UP): 0:(803.82904,773.6877)
+:Sending Touch (ACTION_DOWN): 0:(709.0,2412.0)
+:Sending Touch (ACTION_UP): 0:(708.9132,2414.0388)
+:Sending Touch (ACTION_DOWN): 0:(407.0,875.0)
+:Sending Touch (ACTION_UP): 0:(457.55972,895.3654)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.ProductActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(704.0,1803.0)
+:Sending Touch (ACTION_UP): 0:(714.0635,1807.3557)
+:Sending Touch (ACTION_DOWN): 0:(712.0,1284.0)
+:Sending Touch (ACTION_UP): 0:(624.9618,1264.0884)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.ProductActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(772.0,2389.0)
+:Sending Touch (ACTION_UP): 0:(773.43256,2380.5425)
+    // Allowing start of Intent { cmp=as.io.openshop/com.asymbo.activity.ProductActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(866.0,1240.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(864.3422,1236.5623)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(931.0,930.0)
+:Sending Touch (ACTION_UP): 0:(979.5032,875.19617)
+:Sending Touch (ACTION_DOWN): 0:(1255.0,1378.0)
+:Sending Touch (ACTION_UP): 0:(1265.6815,1386.9999)
+:Sending Touch (ACTION_DOWN): 0:(883.0,1266.0)
+:Sending Touch (ACTION_UP): 0:(894.0171,1260.9629)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1269.0,569.0)
+:Sending Touch (ACTION_UP): 0:(1284.1569,565.65283)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1387.0,19.0)
+:Sending Touch (ACTION_UP): 0:(1391.266,18.79853)
+    //[calendar_time:2017-09-12 21:58:46.889  system_uptime:219283217]
+    // Sending event #200
+    //[calendar_time:2017-09-12 21:58:46.941  system_uptime:219283268]
+    // Sending event #200
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+:Sending Touch (ACTION_DOWN): 0:(955.0,2534.0)
+:Sending Touch (ACTION_UP): 0:(945.12036,2543.6282)
+:Sending Touch (ACTION_DOWN): 0:(99.0,1234.0)
+:Sending Touch (ACTION_UP): 0:(99.17102,1239.6649)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(124.0,2076.0)
+:Sending Touch (ACTION_UP): 0:(162.7085,2159.2568)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(465.0,1936.0)
+:Sending Touch (ACTION_UP): 0:(605.44904,1982.4047)
+:Sending Touch (ACTION_DOWN): 0:(18.0,2121.0)
+:Sending Touch (ACTION_UP): 0:(25.645233,2112.8467)
+:Sending Touch (ACTION_DOWN): 0:(249.0,174.0)
+:Sending Touch (ACTION_UP): 0:(254.2351,167.73483)
+:Sending Touch (ACTION_DOWN): 0:(94.0,1884.0)
+:Sending Touch (ACTION_UP): 0:(95.379,1926.878)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=as.io.openshop/com.asymbo.activity.HomepageActivity_;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=as.io.openshop/com.asymbo.activity.HomepageActivity_ } in package as.io.openshop
+// CRASH: as.io.openshop (pid 12401)
+// Short Msg: java.lang.IndexOutOfBoundsException
+// Long Msg: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+// Build Label: 5.1.1/LMY47V/1441693976:user/release-keys
+// Build Changelist: 512b2fd1a6
+// Build Time: 1482638313000
+// java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+// 	at java.util.ArrayList.get(ArrayList.java:411)
+// 	at com.asymbo.adapter.AbstractProductAdapter.getItemId(AbstractProductAdapter.java:44)
+// 	at android.widget.AdapterView.getItemIdAtPosition(AdapterView.java:795)
+// 	at android.widget.AdapterView.setNextSelectedPositionInt(AdapterView.java:1219)
+// 	at android.widget.GridView.setSelection(GridView.java:1586)
+// 	at com.asymbo.activity.AbstractProductActivity.reinitProductsView(AbstractProductActivity.java:474)
+// 	at com.asymbo.activity.AbstractProductActivity.onRequestSuccess(AbstractProductActivity.java:504)
+// 	at com.asymbo.activity.AbstractProductActivity.onRequestSuccess(AbstractProductActivity.java:72)
+// 	at com.octo.android.robospice.request.notifier.DefaultRequestListenerNotifier$ResultRunnable.run(DefaultRequestListenerNotifier.java:174)
+// 	at android.os.Handler.handleCallback(Handler.java:751)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:154)
+// 	at android.app.ActivityThread.main(ActivityThread.java:6126)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+// 
+** Monkey aborted due to error.
+Events injected: 291
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=2 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=4138ms (0ms mobile, 0ms wifi, 4138ms not connected)
+** System appears to have crashed at event 291 of 4000 using seed 1505527978819
