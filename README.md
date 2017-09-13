@@ -6,7 +6,7 @@ Repositorio del proyecto de pruebas automaticas
 * Cristian Camilo Huertas Segura (cc.huertas@uniandes.edu.co) - 201624397 
 
 # Bitacora
-* https://github.com/camilo8708/Pruebas-Automaticas-Miso-2017.git 
+* https://github.com/camilo8708/Pruebas-Automaticas-Miso-2017/wiki/Bitacora 
 
 # Aplicaciones
 * Web:
