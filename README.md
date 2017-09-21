@@ -23,5 +23,3 @@ Repositorio del proyecto de pruebas automaticas
 # Reportes
 * [Primer Reporte](https://uniandes-my.sharepoint.com/personal/cc_huertas_uniandes_edu_co/_layouts/15/guestaccess.aspx?guestaccesstoken=lMr9WCrIidfCrH8wEjot7cQsyjiztLMjpXzSCyNSvPQ%3d&docid=2_00486ae3c5c5041d1b9ef5ff4796bec0e&rev=1)
 
-# Pruebas cruzadas
-* [Pruebas Apps Grupo 4](https://uniandes-my.sharepoint.com/personal/jd_runza_uniandes_edu_co/_layouts/15/guestaccess.aspx?guestaccesstoken=V3%2bcaZGcroKEKvcDgMqo43cICO674GLZfR8oDgNfNqk%3d&folderid=2_033b68d7fd64942abb4dcbbdaeafcd964&rev=1)
