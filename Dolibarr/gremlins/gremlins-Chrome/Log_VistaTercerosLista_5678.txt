@@ -1,0 +1,272 @@
+gremlins.min.js:2 mogwai  fps        8.571771436913751
+console.error @ gremlins.min.js:2
+n @ gremlins.min.js:2
+requestAnimationFrame (async)
+e @ gremlins.min.js:2
+requestAnimationFrame (async)
+r @ gremlins.min.js:2
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+gremlins.min.js:2 mogwai  fps        0.8696000013745251
+console.error @ gremlins.min.js:2
+n @ gremlins.min.js:2
+requestAnimationFrame (async)
+e @ gremlins.min.js:2
+requestAnimationFrame (async)
+r @ gremlins.min.js:2
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+gremlins.min.js:2 mogwai  fps        4.000160007618672
+console.error @ gremlins.min.js:2
+n @ gremlins.min.js:2
+requestAnimationFrame (async)
+e @ gremlins.min.js:2
+requestAnimationFrame (async)
+r @ gremlins.min.js:2
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+gremlins.min.js:2 mogwai  fps        4.285885718456876
+console.error @ gremlins.min.js:2
+n @ gremlins.min.js:2
+requestAnimationFrame (async)
+e @ gremlins.min.js:2
+requestAnimationFrame (async)
+r @ gremlins.min.js:2
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
+requestAnimationFrame (async)
+t @ gremlins.min.js:2
