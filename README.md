@@ -22,6 +22,8 @@ Repositorio del proyecto de pruebas automaticas
 
 # Reportes
 * [Primer Reporte](https://uniandes-my.sharepoint.com/personal/cc_huertas_uniandes_edu_co/_layouts/15/guestaccess.aspx?guestaccesstoken=lMr9WCrIidfCrH8wEjot7cQsyjiztLMjpXzSCyNSvPQ%3d&docid=2_00486ae3c5c5041d1b9ef5ff4796bec0e&rev=1)
+* [Segundo Reporte](https://www.dropbox.com/s/exafly4ji8jb5gj/Ciclo%202%20Pruebas.pptx?dl=0)
+
 
 # Cross Test
 * [Primer Ciclo](https://github.com/camilo8708/Pruebas-Automaticas-Miso-2017/tree/master/Cross%20Test%20Cilco%201)
