@@ -1,0 +1,632 @@
+VM1289 gremlins.min.js:2 mogwai  fps        30.00120002919813
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 519 593 {duration: 457}
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 309 645
+VM1289 gremlins.min.js:2 gremlin typer       type µ at 216 40
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 43 433
+VM1289 gremlins.min.js:2 gremlin formFiller input 8 in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type ¨ at 781 331
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 66
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 110
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin formFiller input 5 in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 49 535 {scale: 1.4333, rotation: 79, radius: 192, distanceX: 18, distanceY: -0, …}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 125
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 111
+VM1289 gremlins.min.js:2 gremlin typer       type  at 398 663
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 265 582 {duration: 36}
+VM1289 gremlins.min.js:2 gremlin clicker    click at 609 415
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 378 97
+VM1289 gremlins.min.js:2 gremlin typer       type T at 243 359
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 102 655 {distanceX: -90, distanceY: 106, duration: 196}
+VM1289 gremlins.min.js:2 gremlin formFiller input D in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 46
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 750 22
+VM1289 gremlins.min.js:2 gremlin typer       type Ø at 542 210
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 663 852 {duration: 685}
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 411 321 {distanceX: 165, distanceY: 6, duration: 310}
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 267 487 {duration: 187}
+VM1289 gremlins.min.js:2 gremlin typer       type  at 495 571
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 65
+VM1289 gremlins.min.js:2 gremlin typer       type Ä at 635 148
+VM1289 gremlins.min.js:2 gremlin typer       type  at 502 395
+VM1289 gremlins.min.js:2 gremlin formFiller input L in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 83
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 142
+VM1289 gremlins.min.js:2 gremlin typer       type , at 654 241
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 58
+VM1289 gremlins.min.js:2 gremlin typer       type Í at 697 133
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 123 609 {distanceX: 53, distanceY: 11, duration: 283}
+VM1289 gremlins.min.js:2 gremlin clicker    click at 760 402
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 386 726 {distanceX: -39, distanceY: 12, duration: 93}
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 170 661
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 16
+VM1289 gremlins.min.js:2 gremlin clicker    mouseup at 149 686
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 729 597
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 389 520 {duration: 693}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 64
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 810 777 {scale: 0.8634, rotation: -87, radius: 189, distanceX: 4, distanceY: -2, …}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 8 109
+VM1289 gremlins.min.js:2 gremlin clicker    click at 22 493
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 822 707 {duration: 624}
+VM1289 gremlins.min.js:2 gremlin formFiller input a in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 368 819
+VM1289 gremlins.min.js:2 gremlin formFiller input I in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style>​
+VM1289 gremlins.min.js:2 gremlin typer       type ê at 531 518
+VM1289 gremlins.min.js:2 gremlin formFiller input 7 in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style>​
+VM1289 gremlins.min.js:2 gremlin typer       type { at 65 493
+VM1289 gremlins.min.js:2 gremlin typer       type b at 562 409
+VM1289 gremlins.min.js:2 gremlin formFiller input i in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style>​
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 300 572 {distanceX: 106, distanceY: 145, duration: 190}
+VM1289 gremlins.min.js:2 gremlin formFiller input 1 in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style>​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 2 161
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 5 117
+VM1289 gremlins.min.js:2 gremlin clicker    click at 138 187
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 43 747
+VM1289 gremlins.min.js:2 gremlin formFiller input 6 in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 gremlin typer       type d at 124 389
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 3 150
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 101
+VM1289 gremlins.min.js:2 gremlin formFiller input ] in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 3 30
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 4 176
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 227 748
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 681 43
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 368 539
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 417 533 {distanceX: 138, distanceY: 165, duration: 173}
+VM1289 gremlins.min.js:2 gremlin formFiller input a in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 598 327 {distanceX: 174, distanceY: 60, duration: 139}
+VM1289 gremlins.min.js:2 gremlin typer       type 9 at 771 420
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 59
+VM1289 gremlins.min.js:2 gremlin typer       type Ù at 110 130
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 473 118 {distanceX: -15, distanceY: -77, duration: 386}
+VM1289 gremlins.min.js:2 gremlin typer       type  at 266 757
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 82
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 7
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 333 247 {distanceX: 0, distanceY: 35, duration: 324}
+VM1289 gremlins.min.js:2 gremlin formFiller input D in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 45
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 552 44
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 426 728 {distanceX: 110, distanceY: -66, duration: 117}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 0
+VM1289 gremlins.min.js:2 gremlin formFiller input E in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 8
+VM1289 gremlins.min.js:2 gremlin typer       type  at 223 513
+VM1289 gremlins.min.js:2 gremlin typer       type Ý at 229 844
+VM1289 gremlins.min.js:2 gremlin clicker    click at 490 828
+VM1289 gremlins.min.js:2 gremlin formFiller input t in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type Q at 609 488
+VM1289 gremlins.min.js:2 mogwai  fps        30.00120002919813
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 205 476 {distanceX: -76, distanceY: 120, duration: 430}
+VM1289 gremlins.min.js:2 gremlin typer       type ¼ at 536 685
+VM1289 gremlins.min.js:2 gremlin clicker    mousedown at 236 739
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 599 184
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 54
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 36
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 22
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 40
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 310 220
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 364 350
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 385 379
+VM1289 gremlins.min.js:2 mogwai  fps        10.000400033017637
+n @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+e @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+r @ VM1289 gremlins.min.js:2
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240089665365
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 277 615 {scale: 1.6385, rotation: -18, radius: 116, distanceX: -5, distanceY: 19, …}
+VM1289 gremlins.min.js:2 gremlin formFiller input G in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type B at 804 751
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 81
+VM1289 gremlins.min.js:2 gremlin formFiller input ] in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    mouseup at 729 82
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 323 412 {distanceX: 194, distanceY: -83, duration: 312}
+VM1289 gremlins.min.js:2 gremlin typer       type 4 at 255 212
+VM1289 gremlins.min.js:2 gremlin formFiller input K in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 gremlin typer       type 9 at 586 353
+VM1289 gremlins.min.js:2 gremlin formFiller input O in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 5 182
+VM1289 gremlins.min.js:2 gremlin clicker    click at 645 690
+VM1289 gremlins.min.js:2 gremlin typer       type  at 291 147
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 561 396 {scale: 0.5779, rotation: 51, radius: 134, distanceX: 4, distanceY: 1, …}
+VM1289 gremlins.min.js:2 gremlin formFiller input C in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 434 260 {distanceX: -89, distanceY: 112, duration: 359}
+VM1289 gremlins.min.js:2 gremlin typer       type  at 511 108
+VM1289 gremlins.min.js:2 gremlin typer       type b at 129 136
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 557 205 {scale: 0.5001, rotation: -17, radius: 53, distanceX: -17, distanceY: 12, …}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 134
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 87
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 126
+VM1289 gremlins.min.js:2 gremlin clicker    mousedown at 662 259
+VM1289 gremlins.min.js:2 gremlin formFiller input $ in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 151
+VM1289 gremlins.min.js:2 gremlin formFiller input U in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type g at 802 382
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 672 370 {scale: 0.6436, rotation: -20, radius: 169, distanceX: 11, distanceY: 5, …}
+VM1289 gremlins.min.js:2 gremlin formFiller input % in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 162 505
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 33
+VM1289 gremlins.min.js:2 gremlin formFiller input 9 in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    click at 700 689
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 172 879
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240089665365
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 154 613 {scale: 1.9978, rotation: 54, radius: 110, distanceX: 16, distanceY: 13, …}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 34
+VM1289 gremlins.min.js:2 gremlin typer       type W at 753 138
+VM1289 gremlins.min.js:2 gremlin formFiller input M in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style>​
+VM1289 gremlins.min.js:2 gremlin clicker    click at 740 743
+VM1289 gremlins.min.js:2 gremlin typer       type â at 103 176
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 197 573 {duration: 272}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 58
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 346 129
+VM1289 gremlins.min.js:2 gremlin clicker    mouseout at 198 381
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin typer       type _ at 567 427
+VM1289 gremlins.min.js:2 gremlin formFiller input Y in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    click at 568 110
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 510 60 {duration: 23}
+VM1289 gremlins.min.js:2 gremlin typer       type ? at 772 507
+VM1289 gremlins.min.js:2 gremlin formFiller input y in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 73
+VM1289 gremlins.min.js:2 mogwai  fps        20.00080001946542
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 352 563 {duration: 456}
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 503 472
+VM1289 gremlins.min.js:2 gremlin formFiller input P in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 501 423 {distanceX: -4, distanceY: -76, duration: 78}
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 753 510
+VM1289 gremlins.min.js:2 gremlin formFiller input t in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 144
+VM1289 gremlins.min.js:2 gremlin typer       type ' at 525 193
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 666 498
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 201 216
+VM1289 gremlins.min.js:2 gremlin formFiller input j in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 26 136
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 617 527 {scale: 1.493, rotation: -6, radius: 152, distanceX: 17, distanceY: 15, …}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 8 19
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 146 647 {duration: 442}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 50
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 241 244
+VM1289 gremlins.min.js:2 gremlin typer       type : at 475 6
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 80
+VM1289 gremlins.min.js:2 gremlin clicker    click at 304 454
+VM1289 gremlins.min.js:2 gremlin typer       type I at 643 206
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 792 288 {duration: 501}
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 576 374 {duration: 542}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 117
+VM1289 gremlins.min.js:2 gremlin typer       type Ò at 188 328
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 610 835 {distanceX: -30, distanceY: 77, duration: 389}
+VM1289 gremlins.min.js:2 gremlin formFiller input C in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 20
+VM1289 gremlins.min.js:2 gremlin formFiller input 0 in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 mogwai  fps        10.00040000973271
+n @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+e @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+r @ VM1289 gremlins.min.js:2
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 136 121 {scale: 0.9165, rotation: 63, radius: 182, distanceX: 20, distanceY: -0, …}
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 646 882
+VM1289 gremlins.min.js:2 gremlin clicker    mousedown at 184 628
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 602 362 {duration: 386}
+VM1289 gremlins.min.js:2 gremlin typer       type ½ at 18 349
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 26
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 61
+VM1289 gremlins.min.js:2 gremlin formFiller input g in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 gremlin formFiller input 1 in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style>​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 767 303 {duration: 248}
+VM1289 gremlins.min.js:2 gremlin formFiller input @ in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style>​
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 368 52 {duration: 101}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 136
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240089665365
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 528 757 {scale: 1.5334, rotation: -89, radius: 53, distanceX: 15, distanceY: 8, …}
+VM1289 gremlins.min.js:2 gremlin clicker    click at 359 666
+VM1289 gremlins.min.js:2 gremlin typer       type \ at 628 153
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 662 225
+VM1289 gremlins.min.js:2 gremlin typer       type  at 675 592
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin typer       type N at 231 732
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 66
+VM1289 gremlins.min.js:2 gremlin typer       type ý at 330 379
+VM1289 gremlins.min.js:2 gremlin clicker    click at 216 709
+VM1289 gremlins.min.js:2 gremlin clicker    mousemove at 462 573
+VM1289 gremlins.min.js:2 gremlin formFiller input e in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​">​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 224 251 {duration: 649}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 154
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 449 165 {distanceX: 9, distanceY: -7, duration: 219}
+VM1289 gremlins.min.js:2 gremlin formFiller input I in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 89
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin formFiller input J in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    click at 406 147
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 366 197 {distanceX: 22, distanceY: 47, duration: 227}
+VM1289 gremlins.min.js:2 gremlin typer       type ¨ at 712 12
+VM1289 gremlins.min.js:2 gremlin formFiller input P in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 374 10 {duration: 365}
+VM1289 gremlins.min.js:2 gremlin typer       type  at 56 586
+VM1289 gremlins.min.js:2 gremlin typer       type õ at 371 535
+VM1289 gremlins.min.js:2 gremlin typer       type  at 765 735
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 121
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 129
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 148
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        20.00080001946542
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 160 720 {scale: 0.8296, rotation: 25, radius: 72, distanceX: -4, distanceY: 14, …}
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 348 680 {scale: 0.4425, rotation: 93, radius: 119, distanceX: 4, distanceY: 0, …}
+VM1289 gremlins.min.js:2 gremlin typer       type ¢ at 817 114
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 415 510
+VM1289 gremlins.min.js:2 gremlin typer       type  at 266 242
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 26 117
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 29 68
+VM1289 gremlins.min.js:2 gremlin formFiller input F in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 29 145
+VM1289 gremlins.min.js:2 gremlin typer       type ¾ at 642 669
+VM1289 gremlins.min.js:2 gremlin clicker    click at 415 416
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 23 92
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 246 695 {duration: 228}
+VM1289 gremlins.min.js:2 gremlin formFiller input V in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 gremlin typer       type  at 772 395
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 20 99
+VM1289 gremlins.min.js:2 gremlin typer       type  at 165 264
+VM1289 gremlins.min.js:2 gremlin formFiller input Z in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin formFiller input H in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    click at 83 105
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 6 144
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 589 840
+VM1289 gremlins.min.js:2 gremlin formFiller input d in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 731 275 {scale: 0.0406, rotation: 38, radius: 89, distanceX: 3, distanceY: -1, …}
+VM1289 gremlins.min.js:2 gremlin typer       type Ò at 790 37
+VM1289 gremlins.min.js:2 gremlin formFiller input a in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 4 94
+VM1289 gremlins.min.js:2 mogwai  fps        12.000480011679253
+n @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+e @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+r @ VM1289 gremlins.min.js:2
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+requestAnimationFrame (async)
+t @ VM1289 gremlins.min.js:2
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 664 539 {duration: 486}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 2 17
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 498 279
+VM1289 gremlins.min.js:2 gremlin formFiller input c in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type 	 at 320 687
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 3 128
+VM1289 gremlins.min.js:2 gremlin formFiller input Q in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type Ý at 91 160
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin formFiller input s in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    mouseup at 814 747
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 4 76
+VM1289 gremlins.min.js:2 gremlin typer       type r at 138 557
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 4 148
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 449 77 {scale: 1.2555, rotation: -75, radius: 80, distanceX: 13, distanceY: -4, …}
+VM1289 gremlins.min.js:2 gremlin formFiller input [ in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 1 159
+VM1289 gremlins.min.js:2 gremlin typer       type £ at 780 187
+VM1289 gremlins.min.js:2 gremlin formFiller input ! in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 188
+VM1289 gremlins.min.js:2 gremlin formFiller input F in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 8 70
+VM1289 gremlins.min.js:2 gremlin typer       type X at 641 81
+VM1289 gremlins.min.js:2 gremlin typer       type ³ at 493 144
+VM1289 gremlins.min.js:2 mogwai  fps        20.00080001946542
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 52 498 {duration: 586}
+VM1289 gremlins.min.js:2 gremlin typer       type  at 452 879
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 101
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 140 313
+VM1289 gremlins.min.js:2 gremlin formFiller input @ in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type \ at 574 331
+VM1289 gremlins.min.js:2 gremlin clicker    click at 816 803
+VM1289 gremlins.min.js:2 gremlin typer       type ú at 164 612
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 775 71 {scale: 1.7803, rotation: 9, radius: 120, distanceX: 8, distanceY: -12, …}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 66 102
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 38 488 {duration: 195}
+VM1289 gremlins.min.js:2 gremlin formFiller input a in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type 8 at 799 342
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 28 102
+VM1289 gremlins.min.js:2 gremlin typer       type © at 210 736
+VM1289 gremlins.min.js:2 gremlin clicker    click at 425 785
+VM1289 gremlins.min.js:2 gremlin formFiller input u in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 728 104 {scale: 1.6675, rotation: -83, radius: 58, distanceX: 7, distanceY: 20, …}
+VM1289 gremlins.min.js:2 gremlin clicker    dblclick at 55 690
+VM1289 gremlins.min.js:2 gremlin formFiller input x in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    click at 817 406
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 400 822 {scale: 0.0385, rotation: -81, radius: 163, distanceX: 3, distanceY: 16, …}
+VM1289 gremlins.min.js:2 gremlin formFiller input 5 in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin formFiller input 5 in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 581 545 {distanceX: 121, distanceY: 28, duration: 289}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 2
+VM1289 gremlins.min.js:2 gremlin typer       type é at 505 43
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 133 462 {duration: 402}
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 65
+VM1289 gremlins.min.js:2 gremlin clicker    click at 185 565
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 628 8 {duration: 231}
+VM1289 gremlins.min.js:2 gremlin clicker    click at 295 344
+VM1289 gremlins.min.js:2 gremlin formFiller input e in <input class=​"select2-focusser select2-offscreen" type=​"text" aria-haspopup=​"true" role=​"button" aria-labelledby=​"select2-chosen-2" id=​"s2id_autogen2" style=​"border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 127
+VM1289 gremlins.min.js:2 gremlin formFiller input g in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type Á at 226 382
+VM1289 gremlins.min.js:2 gremlin clicker    click at 550 377
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 283 177 {scale: 0.8851, rotation: -54, radius: 75, distanceX: -10, distanceY: 6, …}
+VM1289 gremlins.min.js:2 gremlin clicker    mouseout at 794 714
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 54
+VM1289 gremlins.min.js:2 gremlin clicker    click at 484 568
+VM1289 gremlins.min.js:2 gremlin typer       type  at 493 568
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 144
+VM1289 gremlins.min.js:2 gremlin formFiller input w in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin typer       type  at 203 733
+VM1289 gremlins.min.js:2 gremlin formFiller input $ in <input type=​"text" class=​"searchselectcombo vmenusearchselectcombo" name=​"searchselectcombo" tabindex=​"-1" title style=​"display:​ none;​ border:​ 1px solid red;​">​
+VM1289 gremlins.min.js:2 gremlin clicker    click at 567 93
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 820 738 {scale: 1.3123, rotation: -49, radius: 177, distanceX: 11, distanceY: 8, …}
+VM1289 gremlins.min.js:2 gremlin typer       type  at 740 230
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 159 53
+VM1289 gremlins.min.js:2 gremlin typer       type d at 652 114
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 546 369 {distanceX: -57, distanceY: -73, duration: 182}
+VM1289 gremlins.min.js:2 gremlin clicker    mouseup at 173 811
+VM1289 gremlins.min.js:2 gremlin clicker    click at 145 268
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 529 130
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 724 230
+VM1289 gremlins.min.js:2 gremlin toucher    gesture at 453 239 {distanceX: 76, distanceY: 41, duration: 238}
+VM1289 gremlins.min.js:2 gremlin clicker    click at 448 35
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 222 675
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 131 109
+VM1289 gremlins.min.js:2 gremlin clicker    mouseup at 249 451
+VM1289 gremlins.min.js:2 gremlin typer       type ­ at 613 483
+VM1289 gremlins.min.js:2 gremlin formFiller input h in <input type=​"text" autocomplete=​"off" autocorrect=​"off" autocapitalize=​"off" spellcheck=​"false" class=​"select2-input" role=​"combobox" aria-expanded=​"true" aria-autocomplete=​"list" aria-owns=​"select2-results-2" id=​"s2id_autogen2_search" placeholder style>​
+VM1289 gremlins.min.js:2 gremlin typer       type ¦ at 380 805
+VM1289 gremlins.min.js:2 gremlin typer       type & at 466 306
+VM1289 gremlins.min.js:2 gremlin clicker    click at 267 528
+VM1289 gremlins.min.js:2 gremlin typer       type x at 736 288
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    tap at 195 678 {duration: 521}
+VM1289 gremlins.min.js:2 gremlin typer       type  at 676 200
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    multitouch at 272 48 {scale: 0.7809, rotation: 90, radius: 106, distanceX: 19, distanceY: -7, …}
+VM1289 gremlins.min.js:2 gremlin clicker    mouseover at 235 581
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240089665365
+VM1289 gremlins.min.js:2 mogwai  fps        60.00240005839626
+VM1289 gremlins.min.js:2 gremlin toucher    doubletap at 636 159 {duration: 136}
+VM1289 gremlins.min.js:2 gremlin clicker    click at 131 207
+VM1289 gremlins.min.js:2 gremlin typer       type ò at 650 772
+VM1289 gremlins.min.js:2 gremlin formFiller input N in input.searchselectcombo.vmenusearchselectcombo
+VM1289 gremlins.min.js:2 gremlin scroller   scroll to 0 149
+VM1289 gremlins.min.js:2 gremlin formFiller input 7 in input#s2id_autogen2.select2-focusser.select2-offscreen
+VM1289 gremlins.min.js:2 gremlin clicker    click at 428 257
+VM1289 gremlins.min.js:2 gremlin clicker    mouseup at 263 506
+Navigated to http://52.54.130.109/dolibarr/comm/propal/list.php?leftmenu=propals&viewstatut=3
+Navigated to http://52.54.130.109/dolibarr/societe/soc.php?socid=5
