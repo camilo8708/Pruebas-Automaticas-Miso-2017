@@ -27,3 +27,4 @@ Repositorio del proyecto de pruebas automaticas
 
 # Cross Test
 * [Primer Ciclo](https://github.com/camilo8708/Pruebas-Automaticas-Miso-2017/tree/master/Cross%20Test%20Cilco%201)
+* [Segundo Ciclo](https://github.com/camilo8708/Pruebas-Automaticas-Miso-2017/tree/master/Cross%20Test%20Cilco%202)
