@@ -1,35 +1,21 @@
-app.controller("cargueController", function ($scope, $http, sessionService, ngTableParams, $log, $filter, $routeParams) {
-
+app.controller("pruebaController", function ($scope, $http, sessionService, ngTableParams, $log, $filter, $routeParams) {
+    $scope.parametrosE2E = {};
+    $scope.parametrosE2E.chrome = false;
+    $scope.parametrosE2E.firefox = false;
+    $scope.parametrosE2E.ie = false;
+    $scope.parametrosE2E.safari = false;
+    $scope.parametrosE2E.opera = false;
     //Variable para consultar si el usuario está autenticado o está autorizado con los roles que se pasan como
     //parámetro
 /*    $scope.session = {};
     $scope.clientes = [];
     $scope.session.authenticated = sessionService.isAuthenticated();
     $scope.session.authorized = sessionService.isAuthorized();
-
-    $scope.cargueClientes = function () {
-        archivo = $scope.fileContent.split(/\n/)
-        $scope.clientes = [];
-
-        for (i = 0; i < archivo.length; i++){
-            cliente = archivo[i].split(';');
-            $scope.clientes[i] = {};
-            $scope.clientes[i].nombre1 = cliente[0];
-            $scope.clientes[i].nombre2 = cliente[1];
-            $scope.clientes[i].apellido1 = cliente[2];
-            $scope.clientes[i].apellido2 = cliente[3];
-            $scope.clientes[i].correo = cliente[4];
-            $scope.clientes[i].tipoIdenti = cliente[5];
-            $scope.clientes[i].identi = cliente[6];
-            $scope.clientes[i].telefono1 = cliente[7];
-            $scope.clientes[i].telefono2 = cliente[8];
-            $scope.clientes[i].celular = cliente[9];
-            $scope.clientes[i].error = false;
-            $scope.clientes[i].msg = "";
-            $scope.validarDatos(i);
-        }
+*/
+    $scope.carguePruebas = function () {
+        $scope.parametrosE2E.chrome = true;
     }
-
+/*
     $scope.validarDatos = function (pos) {
         //Validar Campos Obligatorios
         if($scope.clientes[i].nombre1 === undefined || $scope.clientes[i].apellido1 === undefined ||

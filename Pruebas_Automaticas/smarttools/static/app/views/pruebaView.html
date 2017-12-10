@@ -11,12 +11,8 @@
                             <input type="file" file-reader="fileContent" accept=".js"/>
                             <br>
                             <div class="col-lg-4 col-lg-offset-4">
-                                <button class="btn btn-success"  ng-click="enviarEncuestas()" id="enviar-encuestas"
-                                    data-toggle="tooltip" title="Se enviaran solo los registros correctos">
+                                <button class="btn btn-success"  ng-click="carguePruebas()" id="cargar-clientes" >
                                     Cargar Pruebas
-                                </button>
-                                <button class="btn btn-success"  ng-click="cargueClientes()" id="cargar-clientes" >
-                                    Cargar
                                 </button>
                             </div>
                         </div>
@@ -28,23 +24,23 @@
                     <div class="col-lg-4">
                         <div class="form-check">
                             <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
+                                <input class="form-check-input" type="checkbox" value="" ng-model="parametrosE2E.chrome">
                                 <i class="fa fa-chrome" aria-hidden="true"></i>
                             </label>
                             <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
+                                <input class="form-check-input" type="checkbox" value="" ng-model="parametrosE2E.firefox">
                                 <i class="fa fa-firefox" aria-hidden="true"></i>
                             </label>
                             <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
+                                <input class="form-check-input" type="checkbox" value="" ng-model="parametrosE2E.ie">
                                 <i class="fa fa-internet-explorer" aria-hidden="true"></i>
                             </label>
                             <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
+                                <input class="form-check-input" type="checkbox" value="" ng-model="parametrosE2E.safari">
                                 <i class="fa fa-safari" aria-hidden="true"></i>
                             </label>
                             <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
+                                <input class="form-check-input" type="checkbox" value="" ng-model="parametrosE2E.opera">
                                 <i class="fa fa-opera" aria-hidden="true"></i>
                             </label>
                         </div>
