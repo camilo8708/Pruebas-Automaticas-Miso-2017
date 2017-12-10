@@ -11,6 +11,7 @@ Feature: Motor de búsqueda con autocompletado
   Scenario: Busqueda de un inexistente con caracteres especiales                          
 	Given I press "Search..."
 	Then I enter text "|°!#$%&/()¡?=¬\\+~<>-_{}[]^{)" into field with id "term"
+	Then I take a screenshot
 	Then I press the enter button
 	Then I should see "No results were found"
   
