@@ -4,26 +4,25 @@
 import json
 import os
 
-from datetime import datetime
-
-import unicodedata
-
-from componentes.tasks import enviarEncuesta
-
-import boto3
+from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
-
-from .models import Empresa, Cliente, Empleado
 
 
 def pruebaE2E(request):
     PATH = ".\\smarttools\\static\\pruebas\\"
+    ID = 100200
     try:
         if request.method == 'POST':
-            navegadores = json.loads(unicodedata.normalize('NFKD', request.POST['navegadores']).encode('ascii','ignore'))
+            ct = 0
+            while ct < int(request.POST['filesLength']):
+                myfile = request.FILES['file'+str(ct)]
+                fs = FileSystemStorage(PATH+str(ID))
+                filename = fs.save(myfile.name, myfile)
+                ct += 1
 
+            navegadores = json.loads(str(request.POST['navegadores']))
 
-            os.system("mkdir "+PATH+"estooo")
+            os.system(PATH+"copia.bat "+str(navegadores["chrome"])+" "+str(navegadores["firefox"])+" "+str(navegadores["ie"])+" "+str(navegadores["safari"])+" "+str(navegadores["opera"])+" "+str(ID))
             archivos = request.POST['archivos']
 
             return HttpResponse("{true}", content_type="application/json")

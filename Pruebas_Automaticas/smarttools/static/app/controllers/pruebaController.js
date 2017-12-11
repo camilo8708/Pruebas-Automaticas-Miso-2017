@@ -1,6 +1,6 @@
 app.controller("pruebaController", function ($scope, $http, sessionService, ngTableParams, $log, $filter, $routeParams) {
     $scope.parametrosE2E = {};
-    $scope.parametrosE2E.chrome = false;
+    $scope.parametrosE2E.chrome = true;
     $scope.parametrosE2E.firefox = false;
     $scope.parametrosE2E.ie = false;
     $scope.parametrosE2E.safari = false;
@@ -11,10 +11,15 @@ app.controller("pruebaController", function ($scope, $http, sessionService, ngTa
     $scope.upload = function(){
 
                 var fd = new FormData();
+                fd.append("filesLength", $scope.files.length);
                 fd.append("navegadores", JSON.stringify($scope.parametrosE2E));
-                fd.append("archivos", $scope.files);
+
+                $scope.files.forEach( function(file, indice, array) {
+                    fd.append("file"+indice, file._file);
+                });
 
                 $http.post("/pruebaE2E/", fd, {
+                    withCredentials: true,
                     headers: {"Content-Type": undefined},
                     transformRequest: angular.identity
                 }).success(function () {
