@@ -3,7 +3,7 @@
 <html lang="en" ng-app="smarttools">
 <head>
     <meta charset="UTF-8">
-    <title>CX-COL</title>
+    <title>E2Grems</title>
 
     {# Cargar tag de librería #}
     {% load bootstrap3 %}
@@ -64,19 +64,13 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" ng-controller="ctrl_session">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#inicio"><i class="fa fa-thumbs-up"></i> CX-COL</a>
+            <a class="navbar-brand" href="#inicio"><i class="fa fa-optin-monster"></i> E2Grems</a>
         </div>
         <ul class="nav navbar-nav smarttools-left">
             <li class=""><a href="#inicio">Inicio</a></li>
-            <li class=""><a href="#pruebas">Pruebas</a></li>
-            <li><a class="" href="#dashboard" id="nav-products" ng-show="session.authenticated">Mi Dashboard</a></li>
-            <li><a class="" href="#cargue_clientes" id="nav-products" ng-show="session.authenticated">Envío Encuestas</a></li>
-        </ul>
-        <ul class="nav navbar-nav smarttools-right">
-            <li class="" ng-show="!session.authenticated"><a href="/login_view" id="nav-login">Iniciar sesión</a></li>
-            <li class="" ng-show="session.authenticated"><a id="btn-cerrar-sesion" ng-click="logout()">Cerrar sesión</a>
-            </li>
-            <li class=""><a href="#registro">Registrarse</a></li>
+            <li class=""><a href="#pruebas">E2E</a></li>
+            <li class=""><a href="#gremlins">Gremlins</a></li>
+            <li><a class="" href="#dashboard" id="nav-products" >Mi Dashboard</a></li>
         </ul>
     </div>
 </nav>
@@ -87,8 +81,8 @@
     <div ng-view class="smarttools-encode-sans"></div>
 
     <footer>
-        <h3 class="smarttools-logo"><i class="fa fa-thumbs-up"></i> CX-COL</h3>
-        <p>Desarrollado por Grupo 6 Emprendimiento y Comercio Electrónico 2017 MBIT4201-02</p>
+        <h3 class="smarttools-logo"><i class="fa fa-thumbs-up"></i> E2Grems</h3>
+        <p>Desarrollado por Cristian Huertas y Jorge Runza MISO2017</p>
         <div>
             <a><i class="fa fa-facebook-square fa-2x"></i></a>
             <a><i class="fa fa-twitter-square fa-2x"></i></a>

@@ -63,6 +63,11 @@ var app = angular.module("smarttools", ["ngRoute", "ngTable", "ui.bootstrap"]).c
             controller: "encuestaController"
         })
 
+        .when("/gremlins", {
+            templateUrl: "/static/app/views/gremlinView.html",
+            controller: "gremlinController"
+        })
+
 
 
         .otherwise({redirectTo: "/inicio"});
