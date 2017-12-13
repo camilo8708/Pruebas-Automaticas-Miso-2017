@@ -1,6 +1,7 @@
 import os
 import uuid
-
+import json
+from django.http import HttpResponse
 
 def gremlins(request):
     try:
@@ -8,9 +9,9 @@ def gremlins(request):
             uid = str(uuid.uuid4())
             browser = request.POST['browser']
             largo = request.POST['largo']
+            ancho = request.POST['ancho']
             fhead = request.POST['fhead']
             url = request.POST['url']
-            correo = request.POST['correo']
             seed = request.POST['seed']
             tiempo = request.POST['tiempo']
 
@@ -18,10 +19,6 @@ def gremlins(request):
                 headless = "\"--headless\", \"--disable-gpu\","
             else:
                 headless = ""
-
-            url = "https://organicos.herokuapp.com"
-            seed = "123456"
-            tiempo = "60000"
 
             command = "cd C:\\gremlins && mkdir " + uid + " && cd " + uid + " && git clone https://github.com/Jorgerunza/gremlins-webdriver.git && cd gremlins-webdriver && npm install"
             os.system(command)
@@ -33,10 +30,10 @@ def gremlins(request):
             baseurl = "    baseUrl: '" + url + "',"
             seed = "    horde.seed(" + seed + ");"
             time = "	browser.executeAsync(unleashGremlins, " + tiempo + ");"
-            self.replace(wdio, 46, configuration)
-            self.replace(wdio, 74, baseurl)
-            self.replace(gtest, 17, seed)
-            self.replace(gtest, 34, time)
+            replace(wdio, 46, configuration)
+            replace(wdio, 74, baseurl)
+            replace(gtest, 17, seed)
+            replace(gtest, 34, time)
 
             runTest = "cd C:\gremlins\\" + uid + "\gremlins-webdriver && npm test > log.txt"
             os.system(runTest)
@@ -50,7 +47,7 @@ def gremlins(request):
         return HttpResponse(json.dumps(e.args), content_type="application/json", status=400)
 
 
-def replace (self, file, line, argument):
+def replace (file, line, argument):
         with open(file, 'r+') as foo:
             data = foo.readlines()  # reads file as list
             pos = line
