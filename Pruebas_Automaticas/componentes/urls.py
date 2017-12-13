@@ -1,7 +1,11 @@
 from django.conf.urls import url
 
+<<<<<<< HEAD
 
 from componentes import concurso, empresa, encuesta, cliente, prueba
+=======
+from componentes import concurso, empresa, encuesta, cliente, prueba, gremlins
+>>>>>>> f3e8b808c5d37fe4b7cb7cf131382e6879a170c3
 from . import views
 
 urlpatterns = [
@@ -23,5 +27,5 @@ urlpatterns = [
     url(r'^cliente/$', cliente.crearCliente, name='crearCliente'),
     url(r'^pruebaE2E/$', prueba.pruebaE2E, name='pruebaE2E'),
     url(r'^resultadoE2E/(?P<id>\w+)/$', prueba.resultadoE2E, name='resultadoE2E'),
-
+    url(r'^gremlins/', gremlins.gremlins, name='gremlins')
 ]
