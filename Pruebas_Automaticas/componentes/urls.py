@@ -1,11 +1,8 @@
 from django.conf.urls import url
 
-<<<<<<< HEAD
 
-from componentes import concurso, empresa, encuesta, cliente, prueba
-=======
+
 from componentes import concurso, empresa, encuesta, cliente, prueba, gremlins
->>>>>>> f3e8b808c5d37fe4b7cb7cf131382e6879a170c3
 from . import views
 
 urlpatterns = [
