@@ -72,49 +72,42 @@
         </form>
     </div>
 
-    <div class="container">
-        <form>
-            <div class="container text-center ">
-                <h3>Pruebas Gremlins</h3>
+    <!-- modals -->
+    <!-- Modal error -->
+    <div class="modal fade" id="modal-error" tabindex="-1" role="dialog" aria-labelledby="modalError">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title smarttools-encode-sans" id="modalError">Vuelve a Intentarlo</h3>
+                </div>
+                <div class="modal-body">
+                    <p ng-bind="errorMessage"></p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-toggle="modal" data-target="#modal-error">
+                        Cerrar
+                    </button>
+                </div>
             </div>
-            <div class="modal-body text-left">
-                <div class="row">
-                    <div class="col-lg-1 col-lg-offset-4">
-                        <label for="URL">URL SUT:</label>
-                    </div>
-                    <div class="col-lg-4">
-                        <input type="text" class="form-control" id="urlSut" placeholder="http://www.google.com.co" ng-model="urlSut">
-                        <br>
-                    </div>
-                    <div class="col-lg-1 col-lg-offset-4">
-                        <label for="navegadores">Navegadores:</label>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                <i class="fa fa-chrome" aria-hidden="true"></i>
-                            </label>
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                <i class="fa fa-firefox" aria-hidden="true"></i>
-                            </label>
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                <i class="fa fa-internet-explorer" aria-hidden="true"></i>
-                            </label>
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                <i class="fa fa-safari" aria-hidden="true"></i>
-                            </label>
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                <i class="fa fa-opera" aria-hidden="true"></i>
-                            </label>
+        </div>
+    </div>
+    <!-- Modal confirmación -->
+    <div class="modal fade" id="modal-confir" tabindex="-1" role="dialog" aria-labelledby="modalError">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title smarttools-encode-sans" id="modalError">Procesando</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-4">
+                            <div class="loader"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
 </div>

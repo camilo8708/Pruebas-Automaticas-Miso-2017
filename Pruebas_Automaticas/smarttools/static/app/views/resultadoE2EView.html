@@ -1,0 +1,56 @@
+<div id="smarttools-index-productos-container" class="container-fluid text-center smarttools-index-section">
+    <div class="container">
+        <form>
+            <div class="container text-center ">
+                <h3>Resultados de la ejecución # [[ id ]]</h3>
+            </div>
+            <div class="modal-body text-left">
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-5">
+                        <div class="loader" ng-show="!resultado"></div>
+                    </div>
+                </div>
+
+                <div class="list-group">
+                    <div ng-repeat="navegador in data">
+                        <button type="button" class="list-group-item list-group-item-action" ng-click="visible(navegador.navegador)">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <h6><span class="badge badge-secondary">[[ navegador.navegador ]]</span></h6>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        Hora Inicio: [[ navegador.start | date:'medium']]
+                                    </div>
+                                    <div class="col-lg-5">
+                                        Fin: [[ navegador.end | date:'medium' ]]
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-lg-4 list-group-item-danger">
+                                        Fail: [[ navegador.state.failed ]]
+                                    </div>
+                                    <div class="col-lg-4 list-group-item-success">
+                                        Pass: [[ navegador.state.passed ]]
+                                    </div>
+                                    <div class="col-lg-4 list-group-item-warning">
+                                        Skip: [[ navegador.state.skipped ]]
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                        <div class="jumbotron" ng-show="navegador.visible">
+                            [[ navegador.navegador ]]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</div>

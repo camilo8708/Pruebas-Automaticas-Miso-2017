@@ -1,4 +1,4 @@
-app.controller("pruebaController", function ($scope, $http, sessionService, ngTableParams, $log, $filter, $routeParams) {
+app.controller("pruebaController", function ($scope, $http, sessionService, ngTableParams, $log, $filter, $routeParams,$location) {
     $scope.parametrosE2E = {};
     $scope.parametrosE2E.chrome = true;
     $scope.parametrosE2E.firefox = false;
@@ -22,15 +22,14 @@ app.controller("pruebaController", function ($scope, $http, sessionService, ngTa
                     withCredentials: true,
                     headers: {"Content-Type": undefined},
                     transformRequest: angular.identity
-                }).success(function () {
-                    alert(e);
-                    //$scope.clientes = [];
-                    //$("#modal-confir").modal("show");
+                }).success(function (e) {
+                    $("#modal-confir").modal("hide");
+                    $location.url("E2Eresultado/"+e);
                 }).error(function (e) {
-                    alert(e);
-                    //$scope.errorMessage = e;
-                    //$("#modal-error").modal("show");
+                    $scope.errorMessage = e;
+                    $("#modal-error").modal("show");
                 });
+                $("#modal-confir").modal("show");
     };
 });
 

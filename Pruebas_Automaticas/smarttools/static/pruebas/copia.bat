@@ -6,70 +6,67 @@ set safari=%4
 set opera=%5
 set numEjec=%6
 
-cd smarttools/static/pruebas
+cd smarttools\static\pruebas
 
 :: Creamos los archivos para chrome
 if "%chrome%" neq "True"  GOTO firefox
 	cd %numEjec%
-	mkdir nightwatch-chrome
-	cd nightwatch-chrome
-	mkdir tests
+	mkdir webdriverio-chrome
+	cd webdriverio-chrome
+	mkdir test
 	cd ..
-	copy *.js nightwatch-chrome\tests\.
+	copy *.js webdriverio-chrome\test\.
 	cd ..
-	copy nightwatch-chrome/nightwatch.json %numEjec%\nightwatch-chrome\nightwatch.json
-	
+	copy webdriverio-chrome\wdio.conf.js %numEjec%\webdriverio-chrome\wdio.conf.js
 	
 :: Creamos los archivos para firefox
 :firefox
 if "%firefox%" neq "True" GOTO opera
 	cd %numEjec%
-	mkdir nightwatch-firefox
-	cd nightwatch-firefox
-	mkdir tests
+	mkdir webdriverio-firefox
+	cd webdriverio-firefox
+	mkdir test
 	cd ..
-	copy *.js nightwatch-firefox\tests\.
+	copy *.js webdriverio-firefox\test\.
 	cd ..
-	copy nightwatch-firefox/nightwatch.json %numEjec%\nightwatch-firefox\nightwatch.json
+	copy webdriverio-firefox\wdio.conf.js %numEjec%\webdriverio-firefox\wdio.conf.js
 	
 
 :: Creamos los archivos para opera
 :opera
 if "%opera%" neq "True" GOTO ie
 	cd %numEjec%
-	mkdir nightwatch-opera
-	cd nightwatch-opera
-	mkdir tests
+	mkdir webdriverio-opera
+	cd webdriverio-opera
+	mkdir test
 	cd ..
-	copy *.js nightwatch-opera\tests\.
+	copy *.js webdriverio-opera\test\.
 	cd ..
-	copy nightwatch-opera/nightwatch.json %numEjec%\nightwatch-opera\nightwatch.json
-
-	
+	copy webdriverio-opera\wdio.conf.js %numEjec%\webdriverio-opera\wdio.conf.js
 
 :: Creamos los archivos para ie
 :ie
 if "%ie%" neq "True" GOTO safari
 	cd %numEjec%
-	mkdir nightwatch-ie
-	cd nightwatch-ie
-	mkdir tests
+	mkdir webdriverio-ie
+	cd webdriverio-ie
+	mkdir test
 	cd ..
-	copy *.js nightwatch-ie\tests\.
+	copy *.js webdriverio-ie\test\.
 	cd ..
-	copy nightwatch-ie/nightwatch.json %numEjec%\nightwatch-ie\nightwatch.json
+	copy webdriverio-ie\wdio.conf.js %numEjec%\webdriverio-ie\wdio.conf.js
 
 
 :: Creamos los archivos para safari
 :safari
 if "%safari%" neq "True" GOTO end
 	cd %numEjec%
-	mkdir nightwatch-safari
-	cd nightwatch-safari
-	mkdir tests
+	mkdir webdriverio-safari
+	cd webdriverio-safari
+	mkdir test
 	cd ..
-	copy *.js nightwatch-safari\tests\.
+	copy *.js webdriverio-safari\test\.
 	cd ..
-	copy nightwatch-safari/nightwatch.json %numEjec%\nightwatch-safari\nightwatch.json
+	copy webdriverio-safari\wdio.conf.js %numEjec%\webdriverio-safari\wdio.conf.js
 
 :end

@@ -24,9 +24,14 @@ var app = angular.module("smarttools", ["ngRoute", "ngTable", "ui.bootstrap"]).c
             controller: "exampleController"
         })
 
-        .when("/pruebas", {
+        .when("/E2E", {
             templateUrl: "/static/app/views/pruebaView.html",
             controller: "pruebaController"
+        })
+
+        .when("/E2Eresultado/:id", {
+            templateUrl: "/static/app/views/resultadoE2EView.html",
+            controller: "resultadoE2EController"
         })
 
         .when("/login_view", {
