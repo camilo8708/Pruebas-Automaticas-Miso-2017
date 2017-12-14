@@ -39,11 +39,18 @@ def resultadoE2E(request, id):
                 ruta = os.getcwd()
                 ruta += PATH[1:]+str(id)+"\\"+navegador+"\\report\\"
                 if os.path.exists(ruta):
+                    numArchivo = 0
+
                     for objeto in listdir(ruta):
                         archivo = open(ruta+objeto, "r")
                         contenido = archivo.read()
                         archivo.close()
-                        respuesta[navegador.replace("webdriverio-","")] = contenido
+                        numArchivo += 1
+                        try:
+                            respuesta[navegador.replace("webdriverio-", "")][str(numArchivo)] = contenido
+                        except Exception as e:
+                            respuesta[navegador.replace("webdriverio-","")] = {}
+                            respuesta[navegador.replace("webdriverio-", "")][str(numArchivo)] = contenido
 
         return HttpResponse(json.dumps(respuesta), content_type="application/json")
 

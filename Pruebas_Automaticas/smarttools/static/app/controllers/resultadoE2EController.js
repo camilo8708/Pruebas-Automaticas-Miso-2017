@@ -9,43 +9,148 @@ app.controller("resultadoE2EController", function ($scope, $http, sessionService
         $http({method: "GET", url: "/resultadoE2E/" +  $scope.id})
             .success(function (data, status) {
                 if(data["chrome"] != undefined){
-                    nav = JSON.parse(data["chrome"]);
+                    nav = {};
+                    start="";
+                    end="";
+                    passed=0;
+                    failed=0;
+                    skiped=0;
                     nav["navegador"] = "Chrome";
                     nav["icono"] = "chrome";
                     nav["visible"] = false;
-                    $scope.data.push(nav)
+                    archi = [];
+                    for(var arch in data["chrome"]){
+                        info = JSON.parse(data["chrome"][arch]);
+                        archi.push(info);
+                        start = info["start"];
+                        end = info["end"];
+                        passed += info.state.passed;
+                        failed += info.state.failed;
+                        skiped += info.state.skiped;
+                    }
+                    nav["passed"]=passed;
+                    nav["failed"]=failed;
+                    nav["skiped"]=skiped;
+                    nav["start"]=start;
+                    nav["end"]=end;
+                    nav["arch"] = archi;
+                    $scope.data.push(nav);
                 }
 
                 if(data["firefox"] != undefined){
-                    nav = JSON.parse(data["firefox"]);
+                    nav = {};
+                    start="";
+                    end="";
+                    passed=0;
+                    failed=0;
+                    skiped=0;
                     nav["navegador"] = "Firefox";
-                    nav["visible"] = false;
                     nav["icono"] = "firefox";
-                    $scope.data.push(nav)
+                    nav["visible"] = false;
+                    archi = [];
+                    for(var arch in data["firefox"]){
+                        info = JSON.parse(data["firefox"][arch]);
+                        archi.push(info);
+                        start = info["start"];
+                        end = info["end"];
+                        passed += info.state.passed;
+                        failed += info.state.failed;
+                        skiped += info.state.skiped;
+                    }
+                    nav["passed"]=passed;
+                    nav["failed"]=failed;
+                    nav["skiped"]=skiped;
+                    nav["start"]=start;
+                    nav["end"]=end;
+                    nav["arch"] = archi;
+                    $scope.data.push(nav);
                 }
 
                 if(data["safari"] != undefined){
-                    nav = JSON.parse(data["safari"]);
+                    nav = {};
+                    start="";
+                    end="";
+                    passed=0;
+                    failed=0;
+                    skiped=0;
                     nav["navegador"] = "Safari";
-                    nav["visible"] = false;
                     nav["icono"] = "safari";
-                    $scope.data.push(nav)
+                    nav["visible"] = false;
+                    archi = [];
+                    for(var arch in data["safari"]){
+                        info = JSON.parse(data["safari"][arch]);
+                        archi.push(info);
+                        start = info["start"];
+                        end = info["end"];
+                        passed += info.state.passed;
+                        failed += info.state.failed;
+                        skiped += info.state.skiped;
+                    }
+                    nav["passed"]=passed;
+                    nav["failed"]=failed;
+                    nav["skiped"]=skiped;
+                    nav["start"]=start;
+                    nav["end"]=end;
+                    nav["arch"] = archi;
+                    $scope.data.push(nav);
                 }
 
                 if(data["opera"] != undefined){
-                    nav = JSON.parse(data["opera"]);
+                    nav = {};
+                    start="";
+                    end="";
+                    passed=0;
+                    failed=0;
+                    skiped=0;
                     nav["navegador"] = "Opera";
-                    nav["visible"] = false;
                     nav["icono"] = "opera";
-                    $scope.data.push(nav)
+                    nav["visible"] = false;
+                    archi = [];
+                    for(var arch in data["opera"]){
+                        info = JSON.parse(data["opera"][arch]);
+                        archi.push(info);
+                        start = info["start"];
+                        end = info["end"];
+                        passed += info.state.passed;
+                        failed += info.state.failed;
+                        skiped += info.state.skiped;
+                    }
+                    nav["passed"]=passed;
+                    nav["failed"]=failed;
+                    nav["skiped"]=skiped;
+                    nav["start"]=start;
+                    nav["end"]=end;
+                    nav["arch"] = archi;
+                    $scope.data.push(nav);
                 }
 
                 if(data["ie"] != undefined){
-                    nav = JSON.parse(data["ie"]);
+                    nav = {};
+                    start="";
+                    end="";
+                    passed=0;
+                    failed=0;
+                    skiped=0;
                     nav["navegador"] = "Internet Explorer";
-                    nav["visible"] = false;
                     nav["icono"] = "internet-explorer";
-                    $scope.data.push(nav)
+                    nav["visible"] = false;
+                    archi = [];
+                    for(var arch in data["ie"]){
+                        info = JSON.parse(data["ie"][arch]);
+                        archi.push(info);
+                        start = info["start"];
+                        end = info["end"];
+                        passed += info.state.passed;
+                        failed += info.state.failed;
+                        skiped += info.state.skiped;
+                    }
+                    nav["passed"]=passed;
+                    nav["failed"]=failed;
+                    nav["skiped"]=skiped;
+                    nav["start"]=start;
+                    nav["end"]=end;
+                    nav["arch"] = archi;
+                    $scope.data.push(nav);
                 }
 
                 $scope.resultado = true;

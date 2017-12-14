@@ -32,51 +32,56 @@
                                 <div class="col-lg-4">
                                     <div class="row">
                                         <div class="col-lg-4 list-group-item-danger">
-                                            Fail: &nbsp; [[ navegador.state.failed ]]
+                                            Fail: &nbsp; [[ navegador.failed ]]
                                         </div>
                                         <div class="col-lg-4 list-group-item-success">
-                                            Pass: &nbsp; [[ navegador.state.passed ]]
+                                            Pass: &nbsp; [[ navegador.passed ]]
                                         </div>
                                         <div class="col-lg-4 list-group-item-warning">
-                                            Skip: &nbsp; [[ navegador.state.skipped ]]
+                                            Skip: &nbsp; [[ navegador.skipped ]]
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </button>
                         <div class="jumbotron" ng-show="navegador.visible">
-                            <div class="row" ng-repeat="suite in navegador.suites">
-                                <div class="bs-callout bs-callout-info" role="alert">
-                                    <h4>[[suite.name]]</h4>
-                                    <div class="row">
-                                        <div class="col-lg-5">
-                                            <h4>[[suite.start | date:'medium' ]]</h4>
+                            <div class="row" ng-repeat="archivo in navegador.arch">
+                                    <div class="bs-callout bs-callout-warning" role="alert">
+                                        <div class="row" ng-repeat="suite in archivo.suites">
+                                        <div class="bs-callout bs-callout-info" role="alert">
+                                            <h4>[[suite.name]]</h4>
+                                            <div class="row">
+                                                <div class="col-lg-5">
+                                                    <h4>[[suite.start | date:'medium' ]]</h4>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <h4>[[suite.end | date:'medium' ]]</h4>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <h4>[[suite.duration | number]]&nbsp;Seg</h4>
+                                                </div>
+                                            </div>
+                                            </h4>
+                                            <div ng-class=" test.state == 'fail' ? 'alert alert-danger' : ( test.state == 'pass' ? 'alert alert-success' : 'alert alert-warning')" role="alert" ng-repeat="test in suite.tests">
+                                                <h5>[[test.name]]&emsp;<span class="badge badge-secondary">[[test.state]]</span></h5>
+                                                <div class="row">
+                                                    <div class="col-lg-5">
+                                                        [[test.start | date:'medium' ]]
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        [[test.end | date:'medium' ]]
+                                                    </div>
+                                                    <div class="col-lg-2">
+                                                        [[test.duration | number]]&nbsp;Seg
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                [[test.error]]
+                                            </div>
                                         </div>
-                                        <div class="col-lg-5">
-                                            <h4>[[suite.end | date:'medium' ]]</h4>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <h4>[[suite.duration | number]]&nbsp;Seg</h4>
-                                        </div>
+                                            </div>
                                     </div>
-                                    </h4>
-                                    <div ng-class=" test.state == 'fail' ? 'alert alert-danger' : ( test.state == 'pass' ? 'alert alert-success' : 'alert alert-warning')" role="alert" ng-repeat="test in suite.tests">
-                                        <h5>[[test.name]]&emsp;<span class="badge badge-secondary">[[test.state]]</span></h5>
-                                        <div class="row">
-                                            <div class="col-lg-5">
-                                                [[test.start | date:'medium' ]]
-                                            </div>
-                                            <div class="col-lg-5">
-                                                [[test.end | date:'medium' ]]
-                                            </div>
-                                            <div class="col-lg-2">
-                                                [[test.duration | number]]&nbsp;Seg
-                                            </div>
-                                        </div>
-                                        <br>
-                                        [[test.error]]
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
