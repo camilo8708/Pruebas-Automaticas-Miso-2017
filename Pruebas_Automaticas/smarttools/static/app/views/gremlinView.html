@@ -1,0 +1,189 @@
+<div id="smarttools-index-productos-container" class="container-fluid text-center smarttools-index-section">
+    <div class="container">
+
+        <div class="container text-center ">
+            <h3>Pruebas Gremlins WebDriver.io</h3>
+        </div>
+
+
+
+    </div>
+
+    <div class="container">
+
+
+        <div class="container text-center " ng-if="[[running]]=='1'">
+
+            <img src="http://images.amcnetworks.com/ifc.com/wp-content/uploads/2016/02/gremlins.gif">
+            <h3>Hemos liberado a nuestros Gremlins Por favor espera...</h3>
+            <div class="loader" align="center"></div>
+        </div>
+
+        <form ng-if="[[running]]=='0' || [[running]]=='3'">
+            <div class="modal-body text-left">
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-4">
+                        <label for="URL">URL SUT:</label>
+                    </div>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" id="urlSut" placeholder="http://www.google.com.co" ng-model="gremlin.url" required>
+                        <br>
+                    </div>
+                    <div class="col-lg-1 col-lg-offset-4">
+                        <label for="navegadores">Navegadores:</label>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" value="chrome"  name="explorador" ng-model="gremlin.chrome" checked>
+                                <i class="fa fa-chrome" aria-hidden="true"></i>
+                            </label>
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" value="firefox" name="explorador"  ng-model="gremlin.firefox">
+                                <i class="fa fa-firefox" aria-hidden="true"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-1 col-lg-offset-4">
+                        <label  for="largo">Largo:</label>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <input type="number" id="largo" name="largo" max="3999" min="100"  placeholder="Ej: 800" ng-model="gremlin.largo" ></input>
+                    </div>
+
+                    <div class="col-lg-1 col-lg-offset-4">
+                        <label for="ancho">Ancho:</label>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <input type="number" id="ancho" name="ancho"  max="3999" min="100" placeholder="Ej: 600" ng-model="gremlin.ancho"></input>
+                    </div>
+
+                    <div class="col-lg-1 col-lg-offset-4">
+                        <label for="modo">Modo :</label>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input id="headless" class="form-check-input" type="radio" value="headless" name="modo" ng-model="gremlin.headless" checked>
+                                <i class="fa fa-terminal" aria-hidden="true"> Headless</i>
+                            </label>
+                            <label class="form-check-label">
+                                <input id="noheadless" class="form-check-input" type="radio" value="no-headless" name="modo" ng-model="gremlin.noheadless">
+                                <i class="fa fa-desktop" aria-hidden="true"> No-Headless</i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-1 col-lg-offset-4">
+                        <label  for="largo">Semilla:</label>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <input type="number" id="seed" name="seed" max="10000000" min="1"  placeholder="Ej: 1234" ng-model="gremlin.seed" ></input>
+                    </div>
+
+                    <div class="col-lg-1 col-lg-offset-4">
+                        <label for="ancho">Tiempo (Mins):</label>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <input type="number" id="tiempo" name="tiempo"  max="1440" min="1" placeholder="Ej: 1 " ng-model="gremlin.tiempo"></input>
+                    </div>
+
+
+                    <div class="col-lg-4 col-lg-offset-4" align="center">
+                        <button class="btn btn-success"  ng-click="progreso();liberar()" id="liberar-gremlins" >
+                            Ejecutar Pruebas
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form ng-if="[[running]]=='3'">
+            <div class="container text-center ">
+                <h3>Resultados de la ejecución # [[ id ]]</h3>
+            </div>
+            <div class="modal-body text-left">
+
+                <div class="list-group">
+                    <div ng-repeat="navegador in data">
+                        <button type="button" class="list-group-item list-group-item-action" ng-click="visible(navegador.navegador)">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <h6><span class="badge badge-secondary">
+                                            <i class="fa fa-[[navegador.icono]]" aria-hidden="true">&nbsp;[[ navegador.navegador ]]</i></span></h6>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            [[ navegador.start | date:'medium']]
+                                        </div>
+                                        <div class="col-lg-5">
+                                            [[ navegador.end | date:'medium' ]]
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-4 list-group-item-danger">
+                                            Fail: &nbsp; [[ navegador.state.failed ]]
+                                        </div>
+                                        <div class="col-lg-4 list-group-item-success">
+                                            Pass: &nbsp; [[ navegador.state.passed ]]
+                                        </div>
+                                        <div class="col-lg-4 list-group-item-warning">
+                                            Skip: &nbsp; [[ navegador.state.skipped ]]
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="jumbotron" ng-show="navegador.visible">
+                            <div class="row" ng-repeat="suite in navegador.suites">
+                                <div class="bs-callout bs-callout-info" role="alert">
+                                    <h4>[[suite.name]]</h4>
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <h4>[[suite.start | date:'medium' ]]</h4>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <h4>[[suite.end | date:'medium' ]]</h4>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <h4>[[suite.duration | number]]&nbsp;Seg</h4>
+                                        </div>
+                                    </div>
+                                    </h4>
+                                    <div ng-class=" test.state == 'fail' ? 'alert alert-danger' : ( test.state == 'pass' ? 'alert alert-success' : 'alert alert-warning')" role="alert" ng-repeat="test in suite.tests">
+                                        <h5>[[test.name]]&emsp;<span class="badge badge-secondary">[[test.state]]</span></h5>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                [[test.start | date:'medium' ]]
+                                            </div>
+                                            <div class="col-lg-5">
+                                                [[test.end | date:'medium' ]]
+                                            </div>
+                                            <div class="col-lg-2">
+                                                [[test.duration | number]]&nbsp;Seg
+                                            </div>
+                                        </div>
+                                        <br>
+                                        [[test.error]]
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <textarea id="textbox" rows="50">[[log]]</textarea>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>

@@ -1,6 +1,8 @@
 import os
 import uuid
 import json
+from os import listdir
+
 from django.http import HttpResponse
 
 def gremlins(request):
@@ -37,10 +39,24 @@ def gremlins(request):
 
             runTest = "cd C:\gremlins\\" + uid + "\gremlins-webdriver && npm test > log.txt"
             os.system(runTest)
+            rutajson = "C:\gremlins\\" + uid + "\gremlins-webdriver\\report\\"
+            rutalog = "C:\gremlins\\" + uid + "\gremlins-webdriver\\log.txt"
 
-            response_data = {}
-            response_data['id'] = uid
-            return HttpResponse(json.dumps(response_data), content_type="application/json")
+            respuesta= {}
+
+            for objeto in listdir(rutajson):
+                archivo = open(rutajson + objeto, "r")
+                contenido = archivo.read()
+                archivo.close()
+                respuesta['id'] = uid
+                respuesta['contenido'] = contenido
+
+            logfile = open(rutalog, "r")
+            log = logfile.read()
+            archivo.close()
+            respuesta['log'] = log
+
+            return HttpResponse(json.dumps(respuesta), content_type="application/json")
 
     except Exception as e:
         print e
