@@ -44,7 +44,6 @@ def gremlins(request):
             replace(wdio, "baseUrl: 'https://losestudiantes.co',", baseurl)
             replace(gtest, "horde.seed(1234);", seed)
             replace(gtest, "browser.executeAsync(unleashGremlins, 50000);", time)
-            os.system('pruebnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
             runTest = "cd C:\gremlins\\" + uid + "\gremlins-webdriver && npm test > log.txt"
             os.system(runTest)
