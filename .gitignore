@@ -1,0 +1,10 @@
+venv
+*.pyc
+staticfiles
+.idea/.name
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/proyecto.iml
+.idea/vcs.xml
+.idea/workspace.xml
