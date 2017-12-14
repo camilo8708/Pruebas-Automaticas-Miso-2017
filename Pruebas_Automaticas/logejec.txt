@@ -1,0 +1,55 @@
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>set chrome=True 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>set firefox=True 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>set ie=True 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>set safari=False 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>set opera=False 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>set numEjec=917263 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>if "True" NEQ "True" GOTO firefox 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas>cd smarttools\static\pruebas\917263\webdriverio-chrome 
+
+(Env) E:\Cursos\Uniandes\Pruebas Automaticas\Pruebas-Automaticas-Miso-2017\Pruebas_Automaticas\smarttools\static\pruebas\917263\webdriverio-chrome>wdio wdio.conf.js 
+
+[1;30m[23:59:46] [0m [0;35mCOMMAND	[0mPOST 	 "/wd/hub/session"
+[1;30m[23:59:46] [0m [0;33mDATA		[0m{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":5,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.9.11","name":"webdriverio"}}}
+[1;30m[23:59:56] [0m [1;34mINFO	[0mSET SESSION ID a5a3ba4a51954eacdcdf53ed44fc3ef8
+[1;30m[23:59:56] [0m [0;36mRESULT		[0m{"applicationCacheEnabled":false,"rotatable":false,"mobileEmulationEnabled":false,"networkConnectionEnabled":false,"chrome":{"chromedriverVersion":"2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1)","userDataDir":"C:\\Users\\CRISTI~1\\AppData\\Local\\Temp\\scoped_dir13764_15211"},"takesHeapSnapshot":true,"pageLoadStrategy":"normal","databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"version":"63.0.3239.84","platform":"Windows NT","browserConnectionEnabled":false,"nativeEvents":true,"acceptSslCerts":true,"locationContextEnabled":true,"webStorageEnabled":true,"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"cssSelectorsEnabled":true,"setWindowRect":true,"unexpectedAlertBehaviour":""}
+[1;30m[23:59:56] [0m [0;35mCOMMAND	[0mPOST 	 "/wd/hub/session/a5a3ba4a51954eacdcdf53ed44fc3ef8/url"
+[1;30m[23:59:56] [0m [0;33mDATA		[0m{"url":"https://losestudiantes.co/"}
+[31mF[0m[1;30m[00:00:06] [0m [0;35mCOMMAND	[0mDELETE 	 "/wd/hub/session/a5a3ba4a51954eacdcdf53ed44fc3ef8"
+[1;30m[00:00:06] [0m [0;33mDATA		[0m{}
+[1;30m[00:00:07] [0m [0;35mCOMMAND	[0mPOST 	 "/wd/hub/session/a5a3ba4a51954eacdcdf53ed44fc3ef8/element"
+[1;30m[00:00:07] [0m [0;33mDATA		[0m{"using":"xpath","value":"//button[normalize-space() = \"Cerrar\"]"}
+[1;30m[00:00:07] [0m 	Failed to take screenshot on reject: 	 {"type":"NoSessionIdError","message":"A session id is required for this command but wasn't found in the response payload"}
+Error in onReload hook: "Error: Don't call the 'init' command when using the wdio test runner. Your session will get initialised and closed automatically.
+    at element("button=Cerrar") - C:\Users\CristianCamilo\AppData\Roaming\npm\node_modules\webdriverio\build\lib\commands\click.js:12:17
+    at click("button=Cerrar") -     at C:\Users\CristianCamilo\AppData\Roaming\npm\node_modules\wdio-jasmine-framework\node_modules\wdio-sync\build\index.js:316:3"
+[1;30m[00:00:07] [0m 	Failed to take screenshot on reject: 	 {"type":"NoSessionIdError","message":"A session id is required for this command but wasn't found in the response payload"}
+[31mF[0m
+
+[32m0 passing[0m[90m (23.30s)[0m
+[31m2 failing[0m
+
+[0m1) Los estudiantes registrosuite1 should visit los estudiantes and failed at register:
+[0m[31mError: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.[0m[93m
+running chrome[0m[90m
+Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[0m
+[0m2) los estudiantes loginsuite2 should visit los estudiantes and correct at log in:
+[0m[31mFailed: A session id is required for this command but wasn't found in the response payload[0m[93m
+running chrome[0m[90m
+Error: A session id is required for this command but wasn't found in the response payload
+[0m
+
+
+Wrote json report to [./report/].

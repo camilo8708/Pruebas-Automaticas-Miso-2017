@@ -4,9 +4,9 @@
 import json
 import os
 import time
+import threading
 from os import listdir
 from random import randint
-
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 
@@ -63,6 +63,8 @@ def pruebaE2E(request):
 
             os.system(PATH+"copia.bat "+str(navegadores["chrome"])+" "+str(navegadores["firefox"])+" "+str(navegadores["ie"])+" "+str(navegadores["safari"])+" "+str(navegadores["opera"])+" "+str(id))
 
+            threading.Thread(target=ejecucion, args=(navegadores, id)).start()
+
             return HttpResponse(json.dumps(str(id)), content_type="application/json")
 
     except Exception as e:
@@ -70,3 +72,7 @@ def pruebaE2E(request):
         return HttpResponse(json.dumps(e.args), content_type="application/json", status=400)
 
 
+def ejecucion(navegadores, id):
+    for navegador in navegadores:
+        if navegadores[navegador]:
+            os.system(PATH + "ejecucion.bat " + str(navegador) + " " + str(id))

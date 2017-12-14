@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42988b92-83b1-49d4-be8d-8dfdba7ad513" name="Default" comment="" />
+    <list default="true" id="42988b92-83b1-49d4-be8d-8dfdba7ad513" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/componentes/prueba.py" afterPath="$PROJECT_DIR$/componentes/prueba.py" />
+    </list>
     <list id="f7861664-1108-485f-9556-be30c2e3ae5e" name="New changelist" comment="" />
     <ignored path="Emprendimiento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prueba.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="prueba.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/componentes/prueba.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="e#47#58#0" expanded="true" />
               </folding>
@@ -79,39 +81,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarttools/static/app/app.js">
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/componentes/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <marker date="1513189952809" expanded="true" signature="202:2378" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="2382:2531" ph="//..." />
-                <marker date="1513189952809" expanded="true" signature="2566:2977" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="2579:2974" ph="{&quot;restrict&quot;: &quot;AE&quot;...}" />
-                <marker date="1513189952809" expanded="true" signature="2620:2653" ph="{&quot;file&quot;: &quot;@&quot;...}" />
-                <marker date="1513189952809" expanded="true" signature="2697:2968" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="2746:2956" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3049:3200" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3158:3194" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3253:3714" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3353:3665" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3405:3604" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3537:3590" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3610:3655" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3671:3708" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3749:4399" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="3808:4369" ph="{&quot;url&quot;: &quot;login/g/&quot;...}" />
-                <marker date="1513189952809" expanded="true" signature="4228:4359" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="4259:4345" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="4436:4929" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="4494:4899" ph="{&quot;url&quot;: &quot;login/g/&quot;...}" />
-                <marker date="1513189952809" expanded="true" signature="4757:4889" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="4788:4875" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="4935:5045" ph="/*...*/" />
-                <marker date="1513189952809" expanded="true" signature="5086:5215" ph="{...}" />
-                <marker date="1513189952809" expanded="true" signature="5100:5140" ph="{...}" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +94,8 @@
       <file leaf-file-name="resultadoE2EController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarttools/static/app/controllers/resultadoE2EController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -136,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultadoE2EView.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resultadoE2EView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarttools/static/app/views/resultadoE2EView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+            <state relative-caret-position="272">
+              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -213,7 +188,6 @@
         <option value="$PROJECT_DIR$/componentes/views.py" />
         <option value="$PROJECT_DIR$/smarttools/static/app/views/queryConcursoView.html" />
         <option value="$PROJECT_DIR$/smarttools/static/app/views/cargarClientes.html" />
-        <option value="$PROJECT_DIR$/componentes/cliente.py" />
         <option value="$PROJECT_DIR$/componentes/models.py" />
         <option value="$PROJECT_DIR$/componentes/tasks.py" />
         <option value="$PROJECT_DIR$/componentes/mail.py" />
@@ -225,7 +199,6 @@
         <option value="$PROJECT_DIR$/smarttools/static/app/controllers/cargueController.js" />
         <option value="$PROJECT_DIR$/smarttools/settings.py" />
         <option value="$PROJECT_DIR$/smarttools/static/app/views/pruebaView.html" />
-        <option value="$PROJECT_DIR$/componentes/prueba.py" />
         <option value="$PROJECT_DIR$/smarttools/static/app/controllers/pruebaController.js" />
         <option value="$PROJECT_DIR$/smarttools/static/app/app.js" />
         <option value="$PROJECT_DIR$/componentes/urls.py" />
@@ -233,6 +206,8 @@
         <option value="$PROJECT_DIR$/smarttools/static/app/controllers/resultadoE2EController.js" />
         <option value="$PROJECT_DIR$/smarttools/static/css/style.css" />
         <option value="$PROJECT_DIR$/smarttools/static/app/views/resultadoE2EView.html" />
+        <option value="$PROJECT_DIR$/componentes/cliente.py" />
+        <option value="$PROJECT_DIR$/componentes/prueba.py" />
       </list>
     </option>
   </component>
@@ -329,7 +304,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Emprendimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pruebas_Automaticas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smarttools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Emprendimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pruebas_Automaticas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smarttools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Emprendimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pruebas_Automaticas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="componentes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -861,13 +902,8 @@
           <line>31</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/componentes/prueba.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -973,16 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/componentes/cliente.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/componentes/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -990,17 +1016,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/componentes/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smarttools/celery.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,16 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/componentes/prueba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="e#47#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/componentes/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
@@ -1265,14 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smarttools/static/app/controllers/resultadoE2EController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smarttools/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -1283,9 +1287,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smarttools/static/app/views/resultadoE2EView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+        <state relative-caret-position="272">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarttools/static/app/controllers/resultadoE2EController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/componentes/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/componentes/cliente.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/componentes/prueba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
