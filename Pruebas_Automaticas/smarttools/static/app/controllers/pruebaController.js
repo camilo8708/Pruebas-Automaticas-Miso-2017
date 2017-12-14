@@ -7,11 +7,15 @@ app.controller("pruebaController", function ($scope, $http, sessionService, ngTa
     $scope.parametrosE2E.opera = false;
 
     $scope.files = [];
+    $scope.repositorio;
+    $scope.ruta;
 
     $scope.upload = function(){
 
                 var fd = new FormData();
                 fd.append("filesLength", $scope.files.length);
+                fd.append("repositorio", $scope.repositorio);
+                fd.append("ruta", $scope.ruta);
                 fd.append("navegadores", JSON.stringify($scope.parametrosE2E));
 
                 $scope.files.forEach( function(file, indice, array) {

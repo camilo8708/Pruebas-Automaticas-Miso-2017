@@ -59,6 +59,7 @@ def pruebaE2E(request):
                 filename = fs.save(myfile.name, myfile)
                 ct += 1
 
+
             navegadores = json.loads(str(request.POST['navegadores']))
 
             os.system(PATH+"copia.bat "+str(navegadores["chrome"])+" "+str(navegadores["firefox"])+" "+str(navegadores["ie"])+" "+str(navegadores["safari"])+" "+str(navegadores["opera"])+" "+str(id))
