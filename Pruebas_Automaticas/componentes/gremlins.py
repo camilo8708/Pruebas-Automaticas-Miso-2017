@@ -20,7 +20,7 @@ def gremlins(request):
             else:
                 headless = ""
 
-            command = "cd C:\\gremlins && mkdir " + uid + " && cd " + uid + " && git clone https://github.com/Jorgerunza/gremlins-webdriver.git && cd gremlins-webdriver && npm install"
+            command = "cd C:\\gremlins && mkdir " + uid + " && cd " + uid + " && git clone https://github.com/Jorgerunza/gremlins-webdriver.git && cd gremlins-webdriver && npm install && npm install -g wdio-json-reporter"
             os.system(command)
 
             wdio = "C:\\gremlins\\" + uid + "\\gremlins-webdriver\\wdio.conf.js"
