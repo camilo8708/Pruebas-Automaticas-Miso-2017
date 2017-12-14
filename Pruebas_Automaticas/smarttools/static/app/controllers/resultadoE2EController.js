@@ -11,6 +11,7 @@ app.controller("resultadoE2EController", function ($scope, $http, sessionService
                 if(data["chrome"] != undefined){
                     nav = JSON.parse(data["chrome"]);
                     nav["navegador"] = "Chrome";
+                    nav["icono"] = "chrome";
                     nav["visible"] = false;
                     $scope.data.push(nav)
                 }
@@ -19,6 +20,7 @@ app.controller("resultadoE2EController", function ($scope, $http, sessionService
                     nav = JSON.parse(data["firefox"]);
                     nav["navegador"] = "Firefox";
                     nav["visible"] = false;
+                    nav["icono"] = "firefox";
                     $scope.data.push(nav)
                 }
 
@@ -26,6 +28,7 @@ app.controller("resultadoE2EController", function ($scope, $http, sessionService
                     nav = JSON.parse(data["safari"]);
                     nav["navegador"] = "Safari";
                     nav["visible"] = false;
+                    nav["icono"] = "safari";
                     $scope.data.push(nav)
                 }
 
@@ -33,13 +36,15 @@ app.controller("resultadoE2EController", function ($scope, $http, sessionService
                     nav = JSON.parse(data["opera"]);
                     nav["navegador"] = "Opera";
                     nav["visible"] = false;
+                    nav["icono"] = "opera";
                     $scope.data.push(nav)
                 }
 
                 if(data["ie"] != undefined){
                     nav = JSON.parse(data["ie"]);
-                    nav["navegador"] = "IE";
+                    nav["navegador"] = "Internet Explorer";
                     nav["visible"] = false;
+                    nav["icono"] = "internet-explorer";
                     $scope.data.push(nav)
                 }
 
