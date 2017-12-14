@@ -15,7 +15,7 @@
         <div class="container text-center " ng-if="[[running]]=='1'">
 
             <img src="http://images.amcnetworks.com/ifc.com/wp-content/uploads/2016/02/gremlins.gif">
-            <h3>Hemos liberado a nuestros Gremlins Por favor espera...</h3>
+            <h3>Hemos liberado a nuestros Gremlins por favor espera...</h3>
             <div class="loader" align="center"></div>
         </div>
 
@@ -35,44 +35,44 @@
                     <div class="col-lg-4">
                         <div class="form-check">
                             <label class="form-check-label">
-                                <input class="form-check-input" type="radio" value="chrome"  name="explorador" ng-model="gremlin.chrome" checked>
+                                <input class="form-check-input" type="radio" value="chrome"  name="explorador" ng-model="gremlin.browser" checked>
                                 <i class="fa fa-chrome" aria-hidden="true"></i>
                             </label>
                             <label class="form-check-label">
-                                <input class="form-check-input" type="radio" value="firefox" name="explorador"  ng-model="gremlin.firefox">
+                                <input class="form-check-input" type="radio" value="firefox" name="explorador"  ng-model="gremlin.browser">
                                 <i class="fa fa-firefox" aria-hidden="true"></i>
                             </label>
                         </div>
                     </div>
 
-                    <div class="col-lg-1 col-lg-offset-4">
+                    <div class="col-lg-1 col-lg-offset-4" ng-if="[[gremlin.browser]]=='chrome'">
                         <label  for="largo">Largo:</label>
 
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" ng-if="[[gremlin.browser]]=='chrome'">
                         <input type="number" id="largo" name="largo" max="3999" min="100"  placeholder="Ej: 800" ng-model="gremlin.largo" ></input>
                     </div>
 
-                    <div class="col-lg-1 col-lg-offset-4">
+                    <div class="col-lg-1 col-lg-offset-4" ng-if="[[gremlin.browser]]=='chrome'">
                         <label for="ancho">Ancho:</label>
 
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" ng-if="[[gremlin.browser]]=='chrome'">
                         <input type="number" id="ancho" name="ancho"  max="3999" min="100" placeholder="Ej: 600" ng-model="gremlin.ancho"></input>
                     </div>
 
-                    <div class="col-lg-1 col-lg-offset-4">
+                    <div class="col-lg-1 col-lg-offset-4" ng-if="[[gremlin.browser]]=='chrome'">
                         <label for="modo">Modo :</label>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" ng-if="[[gremlin.browser]]=='chrome'">
                         <div class="form-check">
                             <label class="form-check-label">
-                                <input id="headless" class="form-check-input" type="radio" value="headless" name="modo" ng-model="gremlin.headless" checked>
+                                <input id="headless" class="form-check-input" type="radio" value="headless" name="modo" ng-model="gremlin.modo" checked>
                                 <i class="fa fa-terminal" aria-hidden="true"> Headless</i>
                             </label>
                             <label class="form-check-label">
-                                <input id="noheadless" class="form-check-input" type="radio" value="no-headless" name="modo" ng-model="gremlin.noheadless">
+                                <input id="noheadless" class="form-check-input" type="radio" value="no-headless" name="modo" ng-model="gremlin.modo">
                                 <i class="fa fa-desktop" aria-hidden="true"> No-Headless</i>
                             </label>
                         </div>

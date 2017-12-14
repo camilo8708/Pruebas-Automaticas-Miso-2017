@@ -3,6 +3,8 @@ app.controller("gremlinController", function ($scope, $http, sessionService, ngT
     $scope.gremlin.url = "";
     $scope.gremlin.chrome = true;
     $scope.gremlin.firefox = false;
+    $scope.gremlin.browser = "chrome";
+    $scope.gremlin.modo = "headless";
     $scope.gremlin.largo = 800;
     $scope.gremlin.ancho = 600;
     $scope.gremlin.headless = true;
@@ -20,19 +22,13 @@ app.controller("gremlinController", function ($scope, $http, sessionService, ngT
     };
 
     $scope.liberar = function(){
-        var browser ="";
         var fhead = 1;
-        if ($scope.gremlin.noheadless)
+        if ($scope.gremlin.modo=="no-headless")
             fhead = 0;
-        if ($scope.gremlin.chrome == true  && $scope.gremlin.firefox == false)
-            browser ="chrome";
-        else
-            browser ="firefox";
-
         var time = $scope.gremlin.tiempo * 60000;
 
         var grems = new FormData();
-        grems.append("browser", browser);
+        grems.append("browser", $scope.gremlin.browser);
         grems.append("largo", $scope.gremlin.largo);
         grems.append("ancho", $scope.gremlin.ancho );
         grems.append("fhead", fhead);
@@ -51,7 +47,7 @@ app.controller("gremlinController", function ($scope, $http, sessionService, ngT
             nav = JSON.parse(data["contenido"]);
             $scope.id = data["id"];
             $scope.log = data["log"];
-            if ($scope.gremlin.chrome == true  && $scope.gremlin.firefox == false){
+            if ($scope.gremlin.browser == "chrome"){
                 nav["navegador"] = "Chrome";
                 nav["icono"] = "chrome";
                 nav["visible"] = false;

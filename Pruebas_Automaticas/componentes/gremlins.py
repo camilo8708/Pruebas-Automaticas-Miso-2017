@@ -1,6 +1,7 @@
 import os
 import uuid
 import json
+import random
 from os import listdir
 
 from django.http import HttpResponse
@@ -27,11 +28,16 @@ def gremlins(request):
 
             wdio = "C:\\gremlins\\" + uid + "\\gremlins-webdriver\\wdio.conf.js"
             gtest = "C:\\gremlins\\" + uid + "\\gremlins-webdriver\\test\\specs\\gremlins-test.js"
-
-            configuration = "        browserName: \'" + browser + "\', chromeOptions: { args: [ " + headless + "\"--window-size=" + largo + "," + ancho + "\" ]}"
+            if (browser == "chrome"):
+                configuration = "        browserName: \'" + browser + "\', chromeOptions: { args: [ " + headless + "\"--window-size=" + largo + "," + ancho + "\" ]}"
+            else:
+                configuration = "        browserName: 'firefox'"
             baseurl = "    baseUrl: '" + url + "',"
             seed = "    horde.seed(" + seed + ");"
             time = "	browser.executeAsync(unleashGremlins, " + tiempo + ");"
+            #puerto = "    port: "+str(random.randint(4000,4999))+","
+            #replace(wdio, 10, puerto)
+
             replace(wdio, 46, configuration)
             replace(wdio, 74, baseurl)
             replace(gtest, 17, seed)
